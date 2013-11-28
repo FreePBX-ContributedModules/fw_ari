@@ -35,6 +35,9 @@
 	<description>
 		This module provides a facility to install bug fixes to the ARI code that is not otherwise housed in a module, it used to be part of framework but has been removed to isolate ARI from Framework updates.
 	</description>
+	<supported>
+		<version>2.11</supported>
+	</supported>
 	<category>Admin</category>
 	<location>release/2.11/fw_ari-2.11.0.0.tgz</location>
 	<md5sum>751792b204e454cb74ff42e95cdc2c30</md5sum>
