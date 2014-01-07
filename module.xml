@@ -40,6 +40,15 @@
 		<version>2.11</version>
 	</supported>
 	<category>Admin</category>
+	<menuitems>
+		<fw_ari
+			category="User Panel"
+			href="/recordings"
+			target="ari"
+			access="all"
+			requires_auth="false"
+		>User Panel</fw_ari>
+        </menuitems>	
 	<location>release/2.11/fw_ari-2.11.0.0.tgz</location>
 	<md5sum>751792b204e454cb74ff42e95cdc2c30</md5sum>
 </module>

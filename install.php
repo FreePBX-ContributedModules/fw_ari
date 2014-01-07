@@ -96,6 +96,17 @@ if (file_exists($libfreepbx) && !file_exists($dest_libfreepbx)) {
 out(_("fw_ari file install done, removing packages from module"));
 unset($out);
 exec("rm -rf $htdocs_ari_source 2>&1",$out,$ret);
+
+//remove userpaneltab as fw_ari is a module now
+$module =& module_functions::create();
+$installed_status = array(MODULE_STATUS_ENABLED, MODULE_STATUS_DISABLED);
+$module_name = 'userpaneltab';
+$userpaneltab_module = $module->getinfo($module_name, $installed_status);
+if (isset($userpaneltab_module[$module_name])) {
+	$module->uninstall($module_name);
+	out(sprintf(_("Uninstalling outdated %s module..."), $module_name));
+}
+
 if ($ret != 0) {
 	out(_("an error occured removing the packaged files"));
 } else {
