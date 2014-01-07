@@ -54,7 +54,7 @@ if (!function_exists('version_compare_freepbx')) {
 /*
  * fw_ari install script
  */
-	$htdocs_ari_source = dirname(__FILE__)."/htdocs_ari/*";
+	$htdocs_ari_source = $amp_conf['AMPWEBROOT']."/admin/modules/fw_ari/htdocs_ari/*";
 	$htdocs_ari_dest = $amp_conf['AMPWEBROOT']."/recordings";
 
 	if (!file_exists(dirname($htdocs_ari_source))) {
