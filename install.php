@@ -54,51 +54,51 @@ if (!function_exists('version_compare_freepbx')) {
 /*
  * fw_ari install script
  */
-	$htdocs_ari_source = $amp_conf['AMPWEBROOT']."/admin/modules/fw_ari/htdocs_ari/*";
-	$htdocs_ari_dest = $amp_conf['AMPWEBROOT']."/recordings";
+$htdocs_ari_source = $amp_conf['AMPWEBROOT']."/admin/modules/fw_ari/htdocs_ari/*";
+$htdocs_ari_dest = $amp_conf['AMPWEBROOT']."/recordings";
 
-	if (!file_exists(dirname($htdocs_ari_source))) {
-    out(sprintf(_("No directory %s, install script not needed"),dirname($htdocs_ari_source)));
-    return true;
-  }
+if (!file_exists(dirname($htdocs_ari_source))) {
+	out(sprintf(_("No directory %s, install script not needed"),dirname($htdocs_ari_source)));
+	return true;
+}
 
-	$msg = _("installing files to %s..");
+$msg = _("installing files to %s..");
 
-	// TODO: for some reason the .htaccess is not being copied with the rest????
-	$src_file[] = $htdocs_ari_source;
-	$src_file[] = dirname($htdocs_ari_source) . "/.htaccess";
-	foreach ($src_file as $src) {
-		outn(sprintf($msg, $htdocs_ari_dest));
-		$out = array();
-		exec("cp -rf $src $htdocs_ari_dest 2>&1",$out,$ret);
-		if ($ret != 0) {
-			fw_ari_print_errors($src, $htdocs_ari_dest, $out);
-			out(_("done, see errors below"));
-		} else {
-			out(_("done"));
-		}
-	}
-	// Make sure that libfreepbx.javascripts.js is available to ARI
-	$libfreepbx = $amp_conf['AMPWEBROOT'].'/admin/common/libfreepbx.javascripts.js';
-	$dest_libfreepbx = $htdocs_ari_dest.'/theme/js/libfreepbx.javascripts.js'; 
-		if (file_exists($libfreepbx) && !file_exists($dest_libfreepbx)) {
-		outn(_("linking libfreepbx.javascripts.js to theme/js.."));
-		if (link($libfreepbx, $dest_libfreepbx)) {
-			out(_("ok"));
-		} else {
-			out(_("possible error - check warning message"));
-		}
-	}
-
-	// We now delete the files, this makes sure that if someone had an unprotected system where they have not enabled
-	// the .htaccess files or otherwise allowed direct access, that these files are not around to possibly cause problems
-	//
-	out(_("fw_ari file install done, removing packages from module"));
-	unset($out);
-	exec("rm -rf $htdocs_ari_source 2>&1",$out,$ret);
+// TODO: for some reason the .htaccess is not being copied with the rest????
+$src_file[] = $htdocs_ari_source;
+$src_file[] = dirname($htdocs_ari_source) . "/.htaccess";
+foreach ($src_file as $src) {
+	outn(sprintf($msg, $htdocs_ari_dest));
+	$out = array();
+	exec("cp -rf $src $htdocs_ari_dest 2>&1",$out,$ret);
 	if ($ret != 0) {
-		out(_("an error occured removing the packaged files"));
+		fw_ari_print_errors($src, $htdocs_ari_dest, $out);
+		out(_("done, see errors below"));
 	} else {
-		out(_("files removed successfully"));
+		out(_("done"));
 	}
+}
+// Make sure that libfreepbx.javascripts.js is available to ARI
+$libfreepbx = $amp_conf['AMPWEBROOT'].'/admin/common/libfreepbx.javascripts.js';
+$dest_libfreepbx = $htdocs_ari_dest.'/theme/js/libfreepbx.javascripts.js'; 
+if (file_exists($libfreepbx) && !file_exists($dest_libfreepbx)) {
+	outn(_("linking libfreepbx.javascripts.js to theme/js.."));
+	if (link($libfreepbx, $dest_libfreepbx)) {
+		out(_("ok"));
+	} else {
+		out(_("possible error - check warning message"));
+	}
+}
+
+// We now delete the files, this makes sure that if someone had an unprotected system where they have not enabled
+// the .htaccess files or otherwise allowed direct access, that these files are not around to possibly cause problems
+//
+out(_("fw_ari file install done, removing packages from module"));
+unset($out);
+exec("rm -rf $htdocs_ari_source 2>&1",$out,$ret);
+if ($ret != 0) {
+	out(_("an error occured removing the packaged files"));
+} else {
+	out(_("files removed successfully"));
+}
 ?>
