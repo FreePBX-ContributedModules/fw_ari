@@ -22,7 +22,7 @@ $ASTERISKMGR_DBHOST = "localhost";
 
 #
 # Database options for older legacy AMP installations (pre-FreePBX)
-#   - $LEGACY_AMP_DBFILE only needs to be set if using a database like sqlite 
+#   - $LEGACY_AMP_DBFILE only needs to be set if using a database like sqlite
 #
 $LEGACY_AMP_DBHOST = "localhost";
 $LEGACY_AMP_DBENGINE = "mysql";
@@ -133,7 +133,7 @@ $AJAX_PAGE_REFRESH_TIME ="01:00";
 $ASTERISK_VOICEMAIL_CONF = $amp_conf["ASTETCDIR"]."/voicemail.conf";
 
 #
-# To set to a specific context.  
+# To set to a specific context.
 #   If using default or more than one context then leave blank
 #
 $ASTERISK_VOICEMAIL_CONTEXT = "";
@@ -159,8 +159,8 @@ $ASTERISK_VOICEMAIL_FOLDERS[3]['folder'] = "Old";
 $ASTERISK_VOICEMAIL_FOLDERS[3]['name'] = _("Old");
 $ASTERISK_VOICEMAIL_FOLDERS[4]['folder'] = "Work";
 $ASTERISK_VOICEMAIL_FOLDERS[4]['name'] = _("Work");
-$ASTERISK_VOICEMAIL_FOLDERS[4]['folder'] = "Urgent";
-$ASTERISK_VOICEMAIL_FOLDERS[4]['name'] = _("Urgent");
+$ASTERISK_VOICEMAIL_FOLDERS[5]['folder'] = "Urgent";
+$ASTERISK_VOICEMAIL_FOLDERS[5]['name'] = _("Urgent");
 
 ###############################
 # call monitor settings
@@ -199,8 +199,8 @@ $CALLMONITOR_AGGRESSIVE_MATCHING = 1;
 #
 #     * use if there are or will be more than 2500 recording files
 #
-#   option: 0 - do not exact match 
-#           1 - only exact match 
+#   option: 0 - do not exact match
+#           1 - only exact match
 #
 $CALLMONITOR_ONLY_EXACT_MATCHING = 0;
 
@@ -279,7 +279,7 @@ $SETTINGS_LISTRING_HIGH = 60;
 $SETTINGS_FOLLOW_ME_LIST_MAX = 5;
 $SETTINGS_ALLOW_VMX_SETTINGS = true;
 #
-# For setting 
+# For setting
 #   option: 0 - do not show controls
 #           1 - show controls
 #
@@ -288,7 +288,7 @@ $SETTINGS_ALLOW_VOICEMAIL_SETTINGS = 1;
 $SETTINGS_ALLOW_VOICEMAIL_PASSWORD_SET = 1;
 
 #
-# password length 
+# password length
 #   setting: number of characters required for changing voicemail password
 #
 $SETTINGS_VOICEMAIL_PASSWORD_LENGTH = 3;
@@ -302,7 +302,7 @@ $SETTINGS_VOICEMAIL_PASSWORD_EXACT = 0;
 
 #
 # Default
-#   option: 
+#   option:
 #           ".WAV" - wav49 format
 #	    ".wav" - wav format
 #           ".gsm" - gsm format
@@ -310,7 +310,7 @@ $SETTINGS_VOICEMAIL_PASSWORD_EXACT = 0;
 $ARI_VOICEMAIL_AUDIO_FORMAT_DEFAULT = ".WAV";
 
 #
-# For setting 
+# For setting
 #   option: 0 - do not show controls
 #           1 - show controls
 #
