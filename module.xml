@@ -3,12 +3,13 @@
 	<modtype>framework</modtype>
 	<repo>standard</repo>
 	<name>FreePBX ARI Framework</name>
-	<version>2.11.0.2</version>
+	<version>12.0.0</version>
 	<publisher>FreePBX</publisher>
 	<license>GPLv2+</license>
 	<candisable>no</candisable>
 	<canuninstall>no</canuninstall>
 	<changelog>
+		*12.0.0* Fixes for FreePBX 12, ignore semi-colon
 		*2.11.0.2* Packaging of ver 2.11.0.2
 		*2.11.0.0* Packaging of ver 2.11.0.0
 		*2.11.0.0* bump version
@@ -37,7 +38,7 @@
 		This module provides a facility to install bug fixes to the ARI code that is not otherwise housed in a module, it used to be part of framework but has been removed to isolate ARI from Framework updates.
 	</description>
 	<supported>
-		<version>2.11</version>
+		<version>12.0</version>
 	</supported>
 	<category>Admin</category>
 	<menuitems>
