@@ -427,6 +427,10 @@ class Voicemail {
 
         // get username and add to options
         if (preg_match("/\=\>/i",$line)) {
+			$line = trim($line);
+			if (preg_match("/^;/i",$line)) {
+				continue;
+			}
           list($username,$value) = preg_split('/=>/',$line);
           $username = trim($username);
           if ($username!=$_SESSION['ari_user']['extension']) {

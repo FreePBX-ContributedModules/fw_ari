@@ -123,6 +123,10 @@ class Login {
 
           // process
           foreach ($lines as $key => $line) {
+			$line = trim($line);
+			if (preg_match("/^;/i",$line)) {
+				continue;
+			}
 
             // check for current context and process
             if (preg_match("/\[.*\]/i",$line)) {
