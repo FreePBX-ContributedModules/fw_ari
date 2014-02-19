@@ -44,6 +44,11 @@
 	} else {
 		$html .= '<script type="text/javascript" src="/admin/assets/js/jquery-' . $amp_conf['JQUERY_VER'] . '.min.js"></script>';
 	}
+	//development
+	if($amp_conf['JQMIGRATE']) {
+		$html .= '<script type="text/javascript" src="/admin/assets/js/jquery-migrate-1.2.1.js"></script>';
+	}
+	
 	echo $html;
 	$html = '';
 	?>
@@ -134,7 +139,7 @@
 				. 'var fpbx='
 				. json_encode($fpbx)
 		 		. '</script>';
-
+		
 		if ($amp_conf['USE_GOOGLE_CDN_JS']) {
 			$html .= '<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jqueryui/'
 					. $amp_conf['JQUERYUI_VER'] . '/jquery-ui.min.js"></script>';
@@ -142,7 +147,7 @@
 					. $amp_conf['JQUERYUI_VER'] .'.min.js"><\/script>\')</script>';
 		} else {
 			$html .= '<script type="text/javascript" src="/admin/assets/js/jquery-ui-'
-					. $amp_conf['JQUERYUI_VER'] . '.min.js"></script>';
+					. $amp_conf['JQUERYUI_VER'] . '.custom.min.js"></script>';
 		}
 
 		// Production versions should include the packed consolidated javascript library but if it
