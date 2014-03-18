@@ -23,7 +23,7 @@ function checkErrorMessage() {
 }
 
 /*
- * Checks modules directory, and configuration, and loaded modules 
+ * Checks modules directory, and configuration, and loaded modules
  */
 function loadModules() {
 
@@ -42,8 +42,8 @@ function loadModules() {
 
     foreach($files as $key => $path) {
 
-      // build module object 
-      include_once($path); 
+      // build module object
+      include_once($path);
       $path_parts = pathinfo($path);
       list($name,$ext) = preg_split("/\./",$path_parts['basename']);
 
@@ -136,7 +136,7 @@ function databaseLogon() {
 		$asteriskcdr_dbhost = $ASTERISKCDR_DBHOST;
 		$asteriskcdr_dbname = $ASTERISKCDR_DBNAME;
 	} else {
-		
+
 		global $amp_conf, $amp_usedevstate;
 		$ariadminusername = isset($amp_conf["ARI_ADMIN_USERNAME"]) ? $amp_conf["ARI_ADMIN_USERNAME"] : $ARI_ADMIN_USERNAME;
 		$ariadminpassword = isset($amp_conf["ARI_ADMIN_PASSWORD"]) ? $amp_conf["ARI_ADMIN_PASSWORD"] : $ARI_ADMIN_PASSWORD;
@@ -157,7 +157,7 @@ function databaseLogon() {
 		$asteriskcdr_dbpass = $amp_conf["AMPDBPASS"];
 		$asteriskcdr_dbhost = isset($amp_conf["AMPDBHOST"]) ? $amp_conf["AMPDBHOST"] : $ASTERISKCDR_DBHOST;
 		$asteriskcdr_dbname = $ASTERISKCDR_DBNAME;
-		
+
 		$amp_usedevstate = isset($amp_conf["USEDEVSTATE"]) ? strtolower(trim($amp_conf["USEDEVSTATE"])) : 0;
 		if ($amp_usedevstate == 'yes' || $amp_usedevstate == 'true' || $amp_usedevstate == 'on' || $amp_usedevstate == '1') {
 			$amp_usedevstate = 1;
@@ -173,9 +173,9 @@ function databaseLogon() {
 
 	$success = $asterisk_manager_interface->Connect($mgrhost,$mgruser,$mgrpass);
 	if (!$success) {
-	  $_SESSION['ari_error'] =  
-	    _("ARI does not appear to have access to the Asterisk Manager.") . " ($errno)<br>" . 
-	    _("Check the ARI 'main.conf.php' configuration file to set the Asterisk Manager Account.") . "<br>" . 
+	  $_SESSION['ari_error'] =
+	    _("ARI does not appear to have access to the Asterisk Manager.") . " ($errno)<br>" .
+	    _("Check the ARI 'main.conf.php' configuration file to set the Asterisk Manager Account.") . "<br>" .
 	    _("Check /etc/asterisk/manager.conf for a proper Asterisk Manager Account") . "<br>" .
 	    _("make sure [general] enabled = yes and a 'permit=' line for localhost or the webserver.");
 	  return FALSE;
@@ -204,10 +204,10 @@ function databaseLogon() {
 
   // cdr database
   if (in_array('callmonitor',array_keys($loaded_modules))) {
-	 $cdrdb = new Database();
+	 $cdrdb = new ARI_Database();
     $_SESSION['dbh_cdr'] = $cdrdb->logon($asteriskcdr_dbengine,
                                       $asteriskcdr_dbfile,
-                                      $asteriskcdr_dbuser, 
+                                      $asteriskcdr_dbuser,
                                       $asteriskcdr_dbpass,
                                       $asteriskcdr_dbhost,
                                       $asteriskcdr_dbname);
@@ -313,11 +313,11 @@ function handleBlock() {
       $module_methods[strtolower($index)] = strtolower($value);
     }
     reset($module_methods);
-        
+
     $rank = 99999;
     $rank_function = "rank";
     if (in_array(strtolower($rank_function), $module_methods)) {
-      $rank = $module->$rank_function(); 
+      $rank = $module->$rank_function();
     }
 
     $ranked_modules[$rank][] = $module;
@@ -344,16 +344,16 @@ function handleBlock() {
     	$nav_menu_function = "navMenu";
     	if (in_array(strtolower($nav_menu_function), $module_methods)) {
 			$nmenu = $module->$nav_menu_function($args);
-      		//$nav_menu .= $module->$nav_menu_function($args); 
+      		//$nav_menu .= $module->$nav_menu_function($args);
 			$nav_menu .= $nmenu;
-    	}      
+    	}
 
     	if (strtolower($m)==strtolower($name)) {
 
-      	// build sub menu 
+      	// build sub menu
       	$subnav_menu_function = "navSubMenu";
       	if (in_array(strtolower($subnav_menu_function), $module_methods)) {
-        	$subnav_menu .= $module->$subnav_menu_function($args); 
+        	$subnav_menu .= $module->$subnav_menu_function($args);
       	}
 
       	// execute function (usually to build content)
@@ -361,7 +361,7 @@ function handleBlock() {
         	$content .= $module->$f($args);
       	}
     }
-	
+
 	 if ($nmenu != false){
 		$nav_menu .= '<br />';
 		$rankloaded = true;
@@ -373,14 +373,14 @@ function handleBlock() {
   }
 
   // add logout link
-  if ($logout != '') { 
+  if ($logout != '') {
     $nav_menu .= "<small><small><a href='" . $_SESSION['ARI_ROOT'] . "?logout=1'>" . _("Logout") . "</a></small></small>";
-  } 
+  }
 
   // error message if no content
   if (!$content) {
     $content .= _("Page Not Found.");
-  } 
+  }
 
   return array($nav_menu,$subnav_menu,$content);
 }
@@ -415,7 +415,7 @@ function handler() {
   else {
 
     $display = new Display();
-	
+
 	$content = '';
     $content .= $display->displayHeaderText("ARI");
     $content .= $display->displayLine();
@@ -438,13 +438,13 @@ function handler() {
   else {
 
     // build the page
-    include_once("./theme/page.tpl.php"); 
+    include_once("./theme/page.tpl.php");
   }
 }
 
 /**
  * Includes and run functions
- */  
+ */
 
 // create asterisk manager interface singleton
 $asterisk_manager_interface = '';
@@ -454,7 +454,7 @@ $loaded_modules = array();
 
 include_once("./includes/asi.php");
 include_once("./includes/database.php");
-include_once("./includes/display.php"); 
+include_once("./includes/display.php");
 include_once("./includes/ajax.php");
 include_once("./includes/callme.php");
 
