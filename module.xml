@@ -3,12 +3,13 @@
 	<modtype>framework</modtype>
 	<repo>standard</repo>
 	<name>FreePBX ARI Framework</name>
-	<version>2.11.0.5</version>
+	<version>2.11.0.6</version>
 	<publisher>FreePBX</publisher>
 	<license>GPLv2+</license>
 	<candisable>no</candisable>
 	<canuninstall>no</canuninstall>
 	<changelog>
+		*2.11.0.6* Class conflicts with User Manager and BMO
 		*2.11.0.5* #7107 ignore semicoloned lines
 		*2.11.0.4* Add back in .htaccess file
 		*2.11.0.3* #6165
