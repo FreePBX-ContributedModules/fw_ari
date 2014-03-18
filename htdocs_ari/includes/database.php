@@ -8,13 +8,12 @@
 /*
  * Database Class
  */
-class Database {
+class ARI_Database {
 
   /*
    * Constructor
    */
-  function Database() {
-
+  function __construct() {
     // PEAR must be installed
     require_once('DB.php');
   }
@@ -42,7 +41,7 @@ class Database {
 
     // connect string
     if ($dbfile) {
-      // datasource mostly to support sqlite: dbengine://dbfile?mode=xxxx 
+      // datasource mostly to support sqlite: dbengine://dbfile?mode=xxxx
       $datasource = $engine . ':///' . $dbfile . '?mode=0666';
       $options = array(
         'debug'       => 4
@@ -51,9 +50,9 @@ class Database {
 			  die_freepbx('sqlite3.so extension must be loaded to run with sqlite3');
       }
 
-    } 
+    }
     else {
-      // datasource in in this style: dbengine://username:password@host/database 
+      // datasource in in this style: dbengine://username:password@host/database
       $datasource = $engine . '://' . $username . ':' . $password . '@' . $host . '/' . $name;
 
       // options
@@ -62,18 +61,18 @@ class Database {
         'portability' => DB_PORTABILITY_LOWERCASE|DB_PORTABILITY_RTRIM|DB_PORTABILITY_DELETE_COUNT|DB_PORTABILITY_NUMROWS|DB_PORTABILITY_ERRORS|DB_PORTABILITY_NULL_TO_EMPTY,
       );
     }
-    
+
     // attempt connection
-    $dbh = DB::connect($datasource,$options); 
+    $dbh = DB::connect($datasource,$options);
 
     // if connection failed show error
     if(DB::isError($dbh)) {
-      $_SESSION['ari_error'] .= $dbh->getMessage() . "<br><br>"; 
+      $_SESSION['ari_error'] .= $dbh->getMessage() . "<br><br>";
       return;
     }
     return $dbh;
-  } 
-} 
+  }
+}
 
 
 ?>
