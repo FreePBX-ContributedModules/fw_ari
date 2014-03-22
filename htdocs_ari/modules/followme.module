@@ -516,7 +516,7 @@ class followme {
 
 	//TODO: really need to check for a bogus response, see how other side does it
 	//
-	return preg_replace("/[^0-9*\-+]/", "", $response);
+	return preg_replace("/[^0-9*\-+#]/", "", $response);
   }
 
   /*

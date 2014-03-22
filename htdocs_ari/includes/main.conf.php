@@ -271,9 +271,9 @@ $ASTERISK_PROTOCOLS['zap']['config_files'] = $amp_conf["ASTETCDIR"]."/zapata.con
 # Settings for Follow-Me Select Boxes in seconds
 #
 
-$SETTINGS_PRERING_LOW = 4;
+$SETTINGS_PRERING_LOW = 0;
 $SETTINGS_PRERING_HIGH = 30;
-$SETTINGS_LISTRING_LOW = 6;
+$SETTINGS_LISTRING_LOW = 0;
 $SETTINGS_LISTRING_HIGH = 60;
 
 $SETTINGS_FOLLOW_ME_LIST_MAX = 5;
