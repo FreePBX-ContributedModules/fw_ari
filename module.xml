@@ -4,8 +4,9 @@
 	<repo>standard</repo>
 	<name>FreePBX ARI Framework</name>
 	<version>12.0.3</version>
-	<publisher>FreePBX</publisher>
-	<license>GPLv2+</license>
+	<publisher>Schmooze Com Inc</publisher>
+	<license>GPLv3+</license>
+	<licenselink>http://www.gnu.org/licenses/gpl-3.0.txt</licenselink>
 	<candisable>no</candisable>
 	<canuninstall>no</canuninstall>
 	<changelog>
