@@ -13,6 +13,11 @@
 		*12.0.2* Class conflicts with User Manager and BMO
 		*12.0.1* Fix jqueryUI references and added migrate into play
 		*12.0.0* Fixes for FreePBX 12, ignore semi-colon
+		*2.11.0.7* Include license file
+		*2.11.0.6* Class conflicts with User Manager and BMO
+		*2.11.0.5* #7107 ignore semicoloned lines
+		*2.11.0.4* Add back in .htaccess file
+		*2.11.0.3* #6165
 		*2.11.0.2* Packaging of ver 2.11.0.2
 		*2.11.0.0* Packaging of ver 2.11.0.0
 		*2.11.0.0* bump version
