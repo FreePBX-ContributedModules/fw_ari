@@ -8,12 +8,15 @@ msgstr ""
 "Project-Id-Version: ari-de\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-05-05 21:29+0200\n"
-"PO-Revision-Date: 2005-12-10 19:50+0100\n"
-"Last-Translator: Till Stoermer <ts@AsteriskPBX.de>\n"
-"Language-Team: German <ts@AsteriskPBX.de>\n"
+"PO-Revision-Date: 2014-07-31 20:15+0200\n"
+"Last-Translator: Dieter <dieter.finkbeiner@finkbeinernet.de>\n"
+"Language-Team: German <http://git.freepbx.org/projects/freepbx/fw_ari/de/>\n"
+"Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 1.10-dev\n"
 
 #: includes/asi.php:46
 msgid "Asterisk Call Manager not responding"
@@ -25,56 +28,62 @@ msgstr "Anmeldung am Asterisk gescheitert."
 
 #: includes/asi.php:96 includes/asi.php:111 includes/asi.php:130
 #: includes/asi.php:144
-#, fuzzy
 msgid "Asterisk command not understood"
-msgstr "Asterisk reload command not understood"
+msgstr "Asterisk Befehl wurde nicht erkannt"
 
 #: includes/bootstrap.php:116
 #, php-format
 msgid "Too many files in %s. Not all files processed"
-msgstr ""
+msgstr "Zu viele Dateien in %s. Es wurden nicht alle Dateien verarbeitet"
 
 #: includes/bootstrap.php:125
 #, php-format
 msgid "Too many directories in %s. Not all files processed"
 msgstr ""
+"Zu viele Verzeichnisse in in %s. Es wurden nicht alle Dateien verarbeitet"
 
 #: includes/bootstrap.php:228
 msgid "ARI requires a version of PHP 4.3 or later"
-msgstr ""
+msgstr "ARI ben&ouml;tigt eine Version von PHP 4.3 oder neuer"
 
 #: includes/bootstrap.php:247
 msgid ""
 "PHP PEAR must be installed.  Visit http://pear.php.net for help with "
 "installation."
 msgstr ""
+"PHP PEAR muss installiert sein.  Besuchenen Sie http://pear.php.net um Hilfe "
+"bei der Intallation zu bekommen."
 
 #: includes/common.php:201 includes/common.php:221
-#, fuzzy
 msgid "ARI does not appear to have access to the Asterisk Manager."
-msgstr "Kann nicht zum Asterisk-Manager verbinden"
+msgstr "ARI scheint keine Verbindung zum Asterisk-Manager zu haben."
 
 #: includes/common.php:202 includes/common.php:222
 msgid ""
 "Check the ARI 'main.conf.php' configuration file to set the Asterisk Manager "
 "Account."
 msgstr ""
+"&Uuml;berpr&uuml;fe die ARI 'main.conf.php' Einstellungsdatei um den "
+"Asterisk Manager Account einzustellen."
 
 #: includes/common.php:203 includes/common.php:223
 msgid "Check /etc/asterisk/manager.conf for a proper Asterisk Manager Account"
 msgstr ""
+"&Uuml;berpr&uuml;fe /etc/asterisk/manager.conf für die korrekten "
+"Einstellungen zum Asterisk Manager Account"
 
 #: includes/common.php:204 includes/common.php:224
 msgid ""
 "make sure [general] enabled = yes and a 'permit=' line for localhost or the "
 "webserver."
 msgstr ""
+"Bitte sicherstellen, dass [general] enabled = yes und eine 'permit=' Zeile "
+"für  localhost oder den Webserver gesetzt sind."
 
 #: includes/common.php:241 includes/common.php:256
-#, fuzzy
 msgid "Check AMP installation, asterisk, and ARI main.conf"
 msgstr ""
-"&Uuml;berpr&uuml;fe die AMP-Installation, Asterisk-Datenbank, oder die ARI "
+"&Uuml;berpr&uuml;fe die AMP-Installation, Asterisk-Datenbank, und die ARI "
 "main.conf"
 
 #: includes/common.php:400
@@ -83,7 +92,7 @@ msgstr "Abmelden"
 
 #: includes/common.php:405
 msgid "Page Not Found."
-msgstr "Seite nicht gefunden"
+msgstr "Seite nicht gefunden."
 
 #: includes/display.php:92
 msgid "Search"
@@ -96,12 +105,12 @@ msgstr "Suchen nach"
 #: includes/display.php:139
 #, php-format
 msgid "Results %d - %d of %d"
-msgstr ""
+msgstr "Ergebnisse %d - %d von %d"
 
 #: includes/display.php:141
-#, fuzzy, php-format
+#, php-format
 msgid "Results %d"
-msgstr "Ergebnis"
+msgstr "Ergebnis %d"
 
 #: includes/display.php:195
 msgid "First"
@@ -125,27 +134,27 @@ msgstr "Passwort"
 
 #: includes/login.php:435
 msgid "Submit"
-msgstr "Anmelden"
+msgstr "Abschicken"
 
 #: includes/login.php:443
 msgid "Remember Password"
 msgstr "Passwort merken"
 
 #: includes/login.php:458
-#, fuzzy
 msgid "Use your <b>Voicemail Mailbox and Password</b>"
-msgstr "Voicemail Mailbox und Password"
+msgstr "Benutzen Sie Ihr <b>Voicemail Mailbox und Password</b>"
 
 #: includes/login.php:459
 msgid "This is the same password used for the phone"
-msgstr "Dieses ist das selbe Passwort, das beim Telefon genutzt wird."
+msgstr "Dies ist das selbe Passwort, dass beim Telefon genutzt wird"
 
 #: includes/login.php:461
 msgid ""
 "For password maintenance or assistance, contact your Phone System "
 "Administrator."
 msgstr ""
-"F&uuml;r Passwort-&Auml;nderungen, kontaktieren Sie Ihren Voicemail-Admin"
+"F&uuml;r Passwort-&Auml;nderungen, kontaktieren Sie Ihren Telefon System "
+"Administrator."
 
 #: includes/main.conf.php:151
 msgid "INBOX"
@@ -169,63 +178,63 @@ msgstr "Arbeit"
 
 #: includes/main.conf.php:238
 msgid "Call Forward All Activate"
-msgstr ""
+msgstr "Rufumleitung Alle einschalten"
 
 #: includes/main.conf.php:239
 msgid "Call Forward All Deactivate"
-msgstr ""
+msgstr "Rufumleitung Alle ausschalten"
 
 #: includes/main.conf.php:240
 msgid "Call Forward All Prompting Deactivate"
-msgstr ""
+msgstr "Rufumleitung Alle mit Ank&unml;ndigung ausschalten"
 
 #: includes/main.conf.php:241
 msgid "Call Forward Busy Activate"
-msgstr ""
+msgstr "Rufumleitung bei \"besetzt\" einschalten"
 
 #: includes/main.conf.php:242
 msgid "Call Forward Busy Deactivate"
-msgstr ""
+msgstr "Rufumleitung bei \"besetzt\" ausschalten"
 
 #: includes/main.conf.php:243
 msgid "Call Forward Busy Prompting Deactivate"
-msgstr ""
+msgstr "Rufumleitung bei \"besetzt\" mit Ank&unml;ndigung ausschalten"
 
 #: includes/main.conf.php:244
 msgid "Call Forward No Answer/Unavailable Activate"
-msgstr ""
+msgstr "Rufumleitung bei \"nicht Melden\" einschalten"
 
 #: includes/main.conf.php:245
 msgid "Call Forward No Answer/Unavailable Deactivate"
-msgstr ""
+msgstr "Rufumleitung bei \"nicht melden\" ausschalten"
 
 #: includes/main.conf.php:246
 msgid "Call Waiting - Activate"
-msgstr ""
+msgstr "Anklopfen einschalten"
 
 #: includes/main.conf.php:247
 msgid "Call Waiting - Deactivate"
-msgstr ""
+msgstr "Anklopfen ausschalten"
 
 #: includes/main.conf.php:248
 msgid "Do-Not-Disturb Activate"
-msgstr ""
+msgstr "Anrufschutz einschalten"
 
 #: includes/main.conf.php:249
 msgid "Do-Not-Disturb Deactivate"
-msgstr ""
+msgstr "Anrufschutz ausschalten"
 
 #: includes/main.conf.php:250
 msgid "My Voicemail"
-msgstr ""
+msgstr "Mein Anrufbeantworter"
 
 #: includes/main.conf.php:251
 msgid "Dial Voicemail"
-msgstr ""
+msgstr "Anrufbeantworter abfragen"
 
 #: misc/callme_page.php:54
 msgid "The call was terminated."
-msgstr ""
+msgstr "Der Anruf wurde beendet."
 
 #: modules/callmonitor.module:36 modules/callmonitor.module:276
 msgid "Call Monitor"
@@ -234,26 +243,25 @@ msgstr "Anrufliste"
 #: modules/callmonitor.module:72 modules/voicemail.module:169
 msgid "One or more messages must be selected before clicking delete."
 msgstr ""
+"Eine oder mehrere Nachrichten müssen ausgew&auml;hlt sein bevor l&ouml;schen "
+"gedr&uuml;ckt wird."
 
 #: modules/callmonitor.module:136
 #, php-format
 msgid "Path is not a directory: %s"
-msgstr ""
+msgstr "Der Pfad ist kein Verzeichnis: %s"
 
 #: modules/callmonitor.module:151 modules/voicemail.module:467
-#, fuzzy
 msgid "delete"
-msgstr "Ausw&auml;hlen"
+msgstr "l&ouml;schen"
 
 #: modules/callmonitor.module:157
-#, fuzzy
 msgid "duration"
 msgstr "Dauer"
 
 #: modules/callmonitor.module:160
-#, fuzzy
 msgid "ignore"
-msgstr "Keine"
+msgstr "ignorieren"
 
 #: modules/callmonitor.module:169 modules/voicemail.module:492
 msgid "Date"
@@ -289,17 +297,17 @@ msgstr "Monitor"
 
 #: modules/callmonitor.module:233 modules/voicemail.module:554
 msgid "Play"
-msgstr ""
+msgstr "Abspielen"
 
 #: modules/callmonitor.module:234 modules/voicemail.module:535
 #: modules/voicemail.module:558
 msgid "Download"
-msgstr ""
+msgstr "Download"
 
 #: modules/callmonitor.module:278
-#, fuzzy, php-format
+#, php-format
 msgid "Call Monitor for %s (%s)"
-msgstr "Anrufliste"
+msgstr "Anrufliste für %s (%s)"
 
 #: modules/callmonitor.module:347 modules/voicemail.module:703
 msgid "select"
@@ -319,33 +327,35 @@ msgstr "Nur die Aufnahme-Datei wird gel&ouml;scht (In der CDR nicht)"
 
 #: modules/featurecodes.module:36 modules/featurecodes.module:63
 msgid "Feature Codes"
-msgstr ""
+msgstr "Funktionscodes"
 
 #: modules/featurecodes.module:65
 #, php-format
 msgid " for %s (%s)"
-msgstr ""
+msgstr " für %s (%s)"
 
 #: modules/featurecodes.module:72
 msgid "Handset Feature Code"
-msgstr ""
+msgstr "Telefon Funktionscodes"
 
 #: modules/featurecodes.module:75
 msgid "Action"
-msgstr ""
+msgstr "Aktion"
 
 #: modules/featurecodes.module:111
 msgid "description"
-msgstr ""
+msgstr "Beschreibung"
 
 #: modules/followme.module:43
 msgid "Follow Me"
-msgstr ""
+msgstr "Rufumleitung zu (Follow Me)"
 
 #: modules/followme.module:100
 msgid ""
 "Your Follow-Me has been disabled, REFRESH your browser to remove this message"
 msgstr ""
+"Die Funktion \"Follow Me\" wurde ausgeschaltet, Bitte Browser aktualisieren "
+"um diese Meldung zu entfernen"
 
 #: modules/followme.module:101 modules/VmX.module:116
 #, php-format
@@ -353,6 +363,8 @@ msgid ""
 "Check with your Telephone System Administrator if you think there is a "
 "problem"
 msgstr ""
+"Fragen Sie Ihren Telefon System Administrator falls Sie der Meinung sind, "
+"dass hier ein Problem existiert"
 
 #: modules/followme.module:118
 msgid "Follow-Me pre-ring time not changed"
@@ -361,7 +373,7 @@ msgstr ""
 #: modules/followme.module:119 modules/followme.module:142
 #, php-format
 msgid "Number %s must be an integer number of seconds"
-msgstr ""
+msgstr "Nummer %s muss eine Zahl in Sekunden sein"
 
 #: modules/followme.module:141
 msgid "Follow-Me list ring time not changed"
@@ -370,11 +382,12 @@ msgstr ""
 #: modules/followme.module:185
 msgid "Follow-Me list must contain at least one valid number"
 msgstr ""
+"Die \"Follow Me\"-Liste muss mindestens eine g&uuml;ltige Nummer enthalten"
 
 #: modules/followme.module:186
 #, php-format
 msgid "The following: %s is not valid"
-msgstr ""
+msgstr "Das Nachfolgen zu: %s ist ung&uuml;ltig"
 
 #: modules/followme.module:291 modules/followme.module:342
 #: modules/phonefeatures.module:360 modules/settings.module:847
@@ -394,17 +407,18 @@ msgstr ""
 
 #: modules/followme.module:302
 msgid "Follow Me List:"
-msgstr ""
+msgstr "\"Follow Me\"-Liste:"
 
 #: modules/followme.module:303
 #, php-format
 msgid "Extensions and outside numbers to ring next."
 msgstr ""
+"Telefone und externe Nummern die nachfolgend signalisiert werden sollen."
 
 #: modules/followme.module:304
 #, php-format
 msgid "Include %s to keep it ringing."
-msgstr ""
+msgstr "Füge %s ein, um die Signalisierung aufrecht zu halten."
 
 #: modules/followme.module:310
 #, php-format
@@ -418,7 +432,7 @@ msgstr ""
 
 #: modules/followme.module:321 modules/followme.module:334
 msgid "seconds"
-msgstr ""
+msgstr "Sekunden"
 
 #: modules/followme.module:324
 msgid "Ring Followme List for:"
@@ -443,12 +457,12 @@ msgstr ""
 
 #: modules/followme.module:354
 msgid "Followme Settings"
-msgstr ""
+msgstr "\"Follow Me\" Einstellungen"
 
 #: modules/followme.module:356
 #, php-format
 msgid "Followme Settings for %s (%s)"
-msgstr ""
+msgstr "\"Follow Me\" Einstellungen f&uuml;r %s (%s)"
 
 #: modules/followme.module:382 modules/phonefeatures.module:182
 #: modules/settings.module:1199 modules/VmX.module:413
