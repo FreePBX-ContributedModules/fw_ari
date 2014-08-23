@@ -3,13 +3,13 @@
 	<modtype>framework</modtype>
 	<repo>standard</repo>
 	<name>FreePBX ARI Framework</name>
-	<version>12.0.3</version>
+	<version>12.0.4</version>
 	<publisher>Schmooze Com Inc</publisher>
 	<license>GPLv3+</license>
 	<licenselink>http://www.gnu.org/licenses/gpl-3.0.txt</licenselink>
-	<candisable>no</candisable>
-	<canuninstall>no</canuninstall>
 	<changelog>
+		*12.0.5* Uninstaller added
+		*12.0.4* Allow this to be uninstalled and removed
 		*12.0.3* Add back old mainstyle.css
 		*12.0.2* Class conflicts with User Manager and BMO
 		*12.0.1* Fix jqueryUI references and added migrate into play
@@ -44,7 +44,7 @@
 		*2.9.0.0* #4509, #4134, #4501, #4427, #4332, #4652, #4621, #4401, #4482, #4566
 	</changelog>
 	<description>
-		This module provides a facility to install bug fixes to the ARI code that is not otherwise housed in a module, it used to be part of framework but has been removed to isolate ARI from Framework updates.
+		**DEPRECIATED** THIS MODULE SHOULD NO LONGER BE USED. IT WAS/IS REPLACED BY UCP (USER CONTROL PANEL).
 	</description>
 	<supported>
 		<version>12.0</version>
@@ -58,7 +58,5 @@
 			access="all"
 			requires_auth="false"
 		>User Panel</fw_ari>
-        </menuitems>
-	<location>release/2.11/fw_ari-2.11.0.0.tgz</location>
-	<md5sum>751792b204e454cb74ff42e95cdc2c30</md5sum>
+	</menuitems>
 </module>
