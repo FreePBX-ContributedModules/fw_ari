@@ -7,8 +7,6 @@
 	<publisher>Schmooze Com Inc</publisher>
 	<license>GPLv3+</license>
 	<licenselink>http://www.gnu.org/licenses/gpl-3.0.txt</licenselink>
-	<candisable>no</candisable>
-	<canuninstall>no</canuninstall>
 	<changelog>
 		*2.11.0.7* Include license file
 		*2.11.0.6* Class conflicts with User Manager and BMO
