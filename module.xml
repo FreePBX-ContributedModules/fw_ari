@@ -3,11 +3,12 @@
 	<modtype>framework</modtype>
 	<repo>standard</repo>
 	<name>FreePBX ARI Framework</name>
-	<version>2.11.1.1</version>
+	<version>2.11.1.2</version>
 	<publisher>Schmooze Com Inc</publisher>
 	<license>GPLv3+</license>
 	<licenselink>http://www.gnu.org/licenses/gpl-3.0.txt</licenselink>
 	<changelog>
+		*2.11.1.2* Resolve issue of user panel tab removement
 		*2.11.1.1* Tweaks
 		*2.11.1.0* Allow uninstall and fix for 12 if needed or wanted
 		*2.11.0.7* Include license file
