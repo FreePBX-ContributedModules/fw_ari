@@ -95,6 +95,6 @@ $installed_status = array(MODULE_STATUS_ENABLED, MODULE_STATUS_DISABLED);
 $module_name = 'userpaneltab';
 $userpaneltab_module = module_getinfo($module_name, $installed_status);
 if (isset($userpaneltab_module[$module_name])) {
-	module_delete($module_name);
+	module_delete($module_name,true);
 	out(sprintf(_("Uninstalling outdated %s module..."), $module_name));
 }
