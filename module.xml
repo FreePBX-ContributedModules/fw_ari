@@ -3,11 +3,12 @@
 	<modtype>framework</modtype>
 	<repo>standard</repo>
 	<name>FreePBX ARI Framework</name>
-	<version>2.11.1.0</version>
+	<version>2.11.1.1</version>
 	<publisher>Schmooze Com Inc</publisher>
 	<license>GPLv3+</license>
 	<licenselink>http://www.gnu.org/licenses/gpl-3.0.txt</licenselink>
 	<changelog>
+		*2.11.1.1* Tweaks
 		*2.11.1.0* Allow uninstall and fix for 12 if needed or wanted
 		*2.11.0.7* Include license file
 		*2.11.0.6* Class conflicts with User Manager and BMO
@@ -44,7 +45,16 @@
 	<supported>
 		<version>2.10</version>
 	</supported>
-	<category>Admin</category>
+	<category>Admin</category>i
+		<menuitems>
+		<fw_ari
+			category="User Panel"
+			href="/recordings"
+			target="ari"
+			access="all"
+			requires_auth="false"
+		>User Panel</fw_ari>
+	</menuitems>
 	<location>release/2.11/fw_ari-2.11.0.0.tgz</location>
 	<md5sum>751792b204e454cb74ff42e95cdc2c30</md5sum>
 </module>

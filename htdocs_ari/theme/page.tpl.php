@@ -143,7 +143,7 @@
 					. $amp_conf['JQUERYUI_VER'] .'.min.js"><\/script>\')</script>';
 		} else {
 			$html .= '<script type="text/javascript" src="/admin/assets/js/jquery-ui-'
-					. $amp_conf['JQUERYUI_VER'] . '.custom.min.js"></script>';
+					. $amp_conf['JQUERYUI_VER'] . '.min.js"></script>';
 		}
         $html .= '<script>var firsttypeofselector = false;</script>';
 
