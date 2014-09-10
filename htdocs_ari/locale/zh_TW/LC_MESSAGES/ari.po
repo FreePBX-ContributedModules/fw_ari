@@ -8,12 +8,16 @@ msgstr ""
 "Project-Id-Version: zh_TW V1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-05-05 21:29+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: A-Lang <ALANG.HSU@GMAIL.COM>\n"
-"Language-Team: Traditional Chinese <ALANG.HSU@GMAIL.COM>\n"
+"PO-Revision-Date: 2014-09-11 01:57+0200\n"
+"Last-Translator: Andrew <andrew.nagy@the159.com>\n"
+"Language-Team: Traditional Chinese "
+"<http://git.freepbx.org/projects/freepbx/fw_ari/zh_TW/>\n"
+"Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 1.10-dev\n"
 
 #: includes/asi.php:46
 msgid "Asterisk Call Manager not responding"
@@ -401,9 +405,9 @@ msgid "Ring %s First For:"
 msgstr "分機 %s 的響鈴時間："
 
 #: modules/followme.module:311
-#, php-format
+#, fuzzy, php-format
 msgid "Time to ring extension %s before ringing the %s Follow Me List %s"
-msgstr "跟隨號碼接通以前的分機 %s 響鈴時間"
+msgstr "跟隨號碼接通以前的分機 %s 響鈴時間 %s Follow Me List %s"
 
 #: modules/followme.module:321 modules/followme.module:334
 msgid "seconds"
