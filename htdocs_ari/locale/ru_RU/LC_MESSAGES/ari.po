@@ -7,12 +7,16 @@ msgstr ""
 "Project-Id-Version: ARI\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-12-14 06:56+0100\n"
-"PO-Revision-Date: 2010-12-13 19:53+0100\n"
-"Last-Translator: \n"
-"Language-Team: Alexander Kozyrev <ceo@postmet.com>\n"
+"PO-Revision-Date: 2014-09-11 01:57+0200\n"
+"Last-Translator: Andrew <andrew.nagy@the159.com>\n"
+"Language-Team: Russian <http://git.freepbx.org/projects/freepbx/fw_ari/ru/>\n"
+"Language: ru_RU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
+"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 1.10-dev\n"
 "X-Poedit-Language: Russian\n"
 "X-Poedit-Country: Russia\n"
 
@@ -744,13 +748,13 @@ msgstr "Язык:"
 #: ../modules/settings.module:757
 #, php-format
 msgid "Passwords must be all numbers and only %s digits"
-msgstr "Пароль должен состоять только из %d цифр"
+msgstr "Пароль должен состоять только из %s цифр"
 
 #: ../modules/settings.module:760
 #, php-format
 msgid "Passwords must be all numbers and at least %s digits"
 msgstr ""
-"Пароль должен состоять не менее чем из %d цифр и никаких других символов"
+"Пароль должен состоять не менее чем из %s цифр и никаких других символов"
 
 #: ../modules/settings.module:765
 msgid "Password Settings"
