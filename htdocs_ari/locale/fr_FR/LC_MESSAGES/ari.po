@@ -8,12 +8,15 @@ msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-05-05 21:29+0200\n"
-"PO-Revision-Date: 2006-04-29 11:30+0100\n"
-"Last-Translator: Xavier Ourcière <xourciere@propolys.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2014-09-11 02:12+0200\n"
+"Last-Translator: Andrew <andrew.nagy@the159.com>\n"
+"Language-Team: French <http://git.freepbx.org/projects/freepbx/fw_ari/fr/>\n"
+"Language: fr_FR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 1.10-dev\n"
 
 #: includes/asi.php:46
 msgid "Asterisk Call Manager not responding"
@@ -92,7 +95,7 @@ msgstr "Rechercher pour"
 #: includes/display.php:139
 #, php-format
 msgid "Results %d - %d of %d"
-msgstr "Résultats %d à %s sur %d"
+msgstr "Résultats %d à %d sur %d"
 
 #: includes/display.php:141
 #, php-format
@@ -704,7 +707,7 @@ msgstr "Langue"
 #, php-format
 msgid "Passwords must be all numbers and only %s digits"
 msgstr ""
-"Le mot de passe doit comporter uniquement des chiffres et seulement 4 "
+"Le mot de passe doit comporter uniquement des chiffres et seulement %s "
 "chiffres"
 
 #: modules/settings.module:758
