@@ -1,21 +1,7 @@
 <?php
 if (!defined('FREEPBX_IS_AUTH')) { die('No direct script access allowed'); }
-// This file is part of FreePBX.
-//
-//    FreePBX is free software: you can redistribute it and/or modify
-//    it under the terms of the GNU General Public License as published by
-//    the Free Software Foundation, either version 2 of the License, or
-//    (at your option) any later version.
-//
-//    FreePBX is distributed in the hope that it will be useful,
-//    but WITHOUT ANY WARRANTY; without even the implied warranty of
-//    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-//    GNU General Public License for more details.
-//
-//    You should have received a copy of the GNU General Public License
-//    along with FreePBX.  If not, see <http://www.gnu.org/licenses/>.
-//
-//    Copyright 2006 FreePBX
+//	License for all code of this FreePBX module can be found in the license file inside the module directory
+//	Copyright 2013 Schmooze Com Inc.
 //
 // HELPER FUNCTIONS:
 
@@ -96,9 +82,19 @@ if (file_exists($libfreepbx) && !file_exists($dest_libfreepbx)) {
 out(_("fw_ari file install done, removing packages from module"));
 unset($out);
 exec("rm -rf $htdocs_ari_source 2>&1",$out,$ret);
+
 if ($ret != 0) {
 	out(_("an error occured removing the packaged files"));
 } else {
 	out(_("files removed successfully"));
 }
-?>
+
+//remove userpaneltab as fw_ari is a module now
+
+$installed_status = array(MODULE_STATUS_ENABLED, MODULE_STATUS_DISABLED);
+$module_name = 'userpaneltab';
+$userpaneltab_module = module_getinfo($module_name, $installed_status);
+if (isset($userpaneltab_module[$module_name])) {
+	module_delete($module_name,true);
+	out(sprintf(_("Uninstalling outdated %s module..."), $module_name));
+}

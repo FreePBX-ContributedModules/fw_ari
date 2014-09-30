@@ -32,14 +32,18 @@ class Language {
       foreach($directories as $directory) {
         $buf = substr($directory,strlen($locale_dir)+1,strlen($directory) - strlen($locale_dir));
         if (preg_match("/" . $buf . "/i",$default_lang)) {
-          $locale = $buf;  
+          $locale = $buf;
           break;
         }
       }
 
       // set locale
-      $language = isset($_COOKIE['ari_lang']) ? $_COOKIE['ari_lang'] : $locale;
-      putenv("LANG=$language"); 
+      if (empty($_COOKIE['ari_lang']) || !preg_match('/^[\w\._@-]+$/', $_COOKIE['ari_lang'])) {
+        $language = $locale;
+      } else {
+        $language = $_COOKIE['ari_lang'];
+      }
+      putenv("LANG=$language");
       putenv("LANGUAGE=$language");
       setlocale(LC_MESSAGES,$language);
       bindtextdomain('ari','./locale');
@@ -106,7 +110,7 @@ class Language {
             <option value='uk_UA' " . ($_COOKIE['ari_lang']=='uk_UA' ? 'selected' : '') .  ">Ukrainian</option>
           </select>
         </form>";
-    } 
+    }
 
     return $langOptions;
   }
