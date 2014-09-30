@@ -53,11 +53,16 @@ class Login {
     $data = '';
     $chksum = '';
     if (isset($_COOKIE['ari_auth'])) {
-      $buf = unserialize(stripslashes($_COOKIE['ari_auth']));
-      list($data,$chksum) = $buf;
+      $buf = json_decode($_COOKIE['ari_auth'],true);
+      if(!is_array($buf)) {
+        $data = false;
+        $chksum = false;
+      } else {
+        list($data,$chksum) = $buf;
+      }
     }
     if (md5($data) == $chksum) {
-      $data = unserialize($crypt->decrypt($data,$ARI_CRYPT_PASSWORD));
+      $data = json_decode($crypt->decrypt($data,$ARI_CRYPT_PASSWORD),true);
       $username = $data['username'];
       $password = $data['password'];
     }
@@ -290,11 +295,11 @@ class Login {
       if ($auth && $remember) {
 
         $data = array('username' => $username, 'password' => $password);
-        $data = $crypt->encrypt(serialize($data),$ARI_CRYPT_PASSWORD);
+        $data = $crypt->encrypt(json_encode($data),$ARI_CRYPT_PASSWORD);
 
         $chksum = md5($data);
 
-        $buf = serialize(array($data,$chksum));
+        $buf = json_encode(array($data,$chksum));
         setcookie('ari_auth',$buf,time()+365*24*60*60,'/');
       }
 
