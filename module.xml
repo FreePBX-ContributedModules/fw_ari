@@ -1,13 +1,14 @@
 <module>
 	<rawname>fw_ari</rawname>
 	<modtype>framework</modtype>
-	<repo>standard</repo>
+	<repo>unsupported</repo>
 	<name>FreePBX ARI Framework</name>
-	<version>12.0.5</version>
+	<version>12.0.6</version>
 	<publisher>Schmooze Com Inc</publisher>
 	<license>GPLv3+</license>
 	<licenselink>http://www.gnu.org/licenses/gpl-3.0.txt</licenselink>
 	<changelog>
+		*12.0.6* Move from supported to unsupported
 		*12.0.5* FREEPBX-8070 SECURITY ISSUE Exec shell on a host using bug in Asterisk Recording Interface index.php
 		*12.0.4* Allow this to be uninstalled and removed
 		*12.0.3* Add back old mainstyle.css
