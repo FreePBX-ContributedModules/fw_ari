@@ -66,7 +66,7 @@ foreach ($src_file as $src) {
 }
 // Make sure that libfreepbx.javascripts.js is available to ARI
 $libfreepbx = $amp_conf['AMPWEBROOT'].'/admin/common/libfreepbx.javascripts.js';
-$dest_libfreepbx = $htdocs_ari_dest.'/theme/js/libfreepbx.javascripts.js'; 
+$dest_libfreepbx = $htdocs_ari_dest.'/theme/js/libfreepbx.javascripts.js';
 if (file_exists($libfreepbx) && !file_exists($dest_libfreepbx)) {
 	outn(_("linking libfreepbx.javascripts.js to theme/js.."));
 	if (link($libfreepbx, $dest_libfreepbx)) {
@@ -98,3 +98,31 @@ if (isset($userpaneltab_module[$module_name])) {
 	module_delete($module_name,true);
 	out(sprintf(_("Uninstalling outdated %s module..."), $module_name));
 }
+
+$freepbx_conf =& freepbx_conf::create();
+$set['category'] = 'System Setup';
+$set['module'] = 'fw_ari';
+
+// ARI_ADMIN_USERNAME
+$set['value'] = base64_encode(openssl_random_pseudo_bytes(30));;
+$set['defaultval'] =& $set['value'];
+$set['options'] = '';
+$set['name'] = 'User Portal Admin Username';
+$set['description'] = 'This is the default admin name used to allow an administrator to login to ARI bypassing all security. Change this to whatever you want, do not forget to change the User Portal Admin Password as well.';
+$set['emptyok'] = 1;
+$set['readonly'] = 0;
+$set['sortorder'] = -120;
+$set['type'] = CONF_TYPE_TEXT;
+$freepbx_conf->define_conf_setting('ARI_ADMIN_USERNAME',$set,true);
+
+// ARI_ADMIN_PASSWORD
+$set['value'] = base64_encode(openssl_random_pseudo_bytes(30));;
+$set['defaultval'] =& $set['value'];
+$set['options'] = '';
+$set['name'] = 'User Portal Admin Password';
+$set['description'] = 'This is the default admin password to allow an administrator to login to ARI bypassing all security. Change this to a secure password.';
+$set['emptyok'] = 0;
+$set['readonly'] = 0;
+$set['sortorder'] = -110;
+$set['type'] = CONF_TYPE_TEXT;
+$freepbx_conf->define_conf_setting('ARI_ADMIN_PASSWORD',$set,true);
