@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-11 17:57-0500\n"
+"POT-Creation-Date: 2015-02-20 19:34-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,343 +17,362 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: /usr/src/freepbx/fw_ari/htdocs_ari/theme/page.tpl.php:117
+#: htdocs_ari/theme/page.tpl.php:117
 msgid ""
 " error(s) occurred, you should view the notification log on the dashboard or "
 "main screen to check for more details."
 msgstr ""
 
-#: /usr/src/freepbx/fw_ari/install.php:10
+#: install.php:10
 #, php-format
 msgid "'cp -rf' from src: '%s' to dst: '%s'...details follow"
 msgstr ""
 
-#: /usr/src/freepbx/fw_ari/htdocs_ari/includes/common.php:177
-#: /usr/src/freepbx/fw_ari/htdocs_ari/includes/common.php:189
+#: htdocs_ari/includes/common.php:177
+#: htdocs_ari/includes/common.php:189
 msgid "ARI does not appear to have access to the Asterisk Manager."
 msgstr ""
 
-#: /usr/src/freepbx/fw_ari/htdocs_ari/includes/bootstrap.php:228
+#: htdocs_ari/includes/bootstrap.php:228
 msgid "ARI requires a version of PHP 4.3 or later"
 msgstr ""
 
-#: /usr/src/freepbx/fw_ari/htdocs_ari/includes/asi.php:46
+#: fw_ari.i18n.php:4
+msgid "Admin"
+msgstr ""
+
+#: htdocs_ari/includes/asi.php:46
 msgid "Asterisk Call Manager not responding"
 msgstr ""
 
-#: /usr/src/freepbx/fw_ari/htdocs_ari/includes/asi.php:54
+#: htdocs_ari/includes/asi.php:54
 msgid "Asterisk authentication failed:"
 msgstr ""
 
-#: /usr/src/freepbx/fw_ari/htdocs_ari/includes/asi.php:96
-#: /usr/src/freepbx/fw_ari/htdocs_ari/includes/asi.php:111
-#: /usr/src/freepbx/fw_ari/htdocs_ari/includes/asi.php:130
-#: /usr/src/freepbx/fw_ari/htdocs_ari/includes/asi.php:144
+#: htdocs_ari/includes/asi.php:96
+#: htdocs_ari/includes/asi.php:111
+#: htdocs_ari/includes/asi.php:130
+#: htdocs_ari/includes/asi.php:144
 msgid "Asterisk command not understood"
 msgstr ""
 
-#: /usr/src/freepbx/fw_ari/htdocs_ari/includes/main.conf.php:242
+#: htdocs_ari/includes/main.conf.php:242
 msgid "Call Forward All Activate"
 msgstr ""
 
-#: /usr/src/freepbx/fw_ari/htdocs_ari/includes/main.conf.php:243
+#: htdocs_ari/includes/main.conf.php:243
 msgid "Call Forward All Deactivate"
 msgstr ""
 
-#: /usr/src/freepbx/fw_ari/htdocs_ari/includes/main.conf.php:244
+#: htdocs_ari/includes/main.conf.php:244
 msgid "Call Forward All Prompting Deactivate"
 msgstr ""
 
-#: /usr/src/freepbx/fw_ari/htdocs_ari/includes/main.conf.php:245
+#: htdocs_ari/includes/main.conf.php:245
 msgid "Call Forward Busy Activate"
 msgstr ""
 
-#: /usr/src/freepbx/fw_ari/htdocs_ari/includes/main.conf.php:246
+#: htdocs_ari/includes/main.conf.php:246
 msgid "Call Forward Busy Deactivate"
 msgstr ""
 
-#: /usr/src/freepbx/fw_ari/htdocs_ari/includes/main.conf.php:247
+#: htdocs_ari/includes/main.conf.php:247
 msgid "Call Forward Busy Prompting Deactivate"
 msgstr ""
 
-#: /usr/src/freepbx/fw_ari/htdocs_ari/includes/main.conf.php:248
+#: htdocs_ari/includes/main.conf.php:248
 msgid "Call Forward No Answer/Unavailable Activate"
 msgstr ""
 
-#: /usr/src/freepbx/fw_ari/htdocs_ari/includes/main.conf.php:249
+#: htdocs_ari/includes/main.conf.php:249
 msgid "Call Forward No Answer/Unavailable Deactivate"
 msgstr ""
 
-#: /usr/src/freepbx/fw_ari/htdocs_ari/includes/main.conf.php:250
+#: htdocs_ari/includes/main.conf.php:250
 msgid "Call Waiting - Activate"
 msgstr ""
 
-#: /usr/src/freepbx/fw_ari/htdocs_ari/includes/main.conf.php:251
+#: htdocs_ari/includes/main.conf.php:251
 msgid "Call Waiting - Deactivate"
 msgstr ""
 
-#: /usr/src/freepbx/fw_ari/htdocs_ari/theme/page.tpl.php:120
+#: htdocs_ari/theme/page.tpl.php:120
 msgid "Cancel"
 msgstr ""
 
-#: /usr/src/freepbx/fw_ari/htdocs_ari/includes/common.php:179
-#: /usr/src/freepbx/fw_ari/htdocs_ari/includes/common.php:191
+#: htdocs_ari/includes/common.php:179
+#: htdocs_ari/includes/common.php:191
 msgid "Check /etc/asterisk/manager.conf for a proper Asterisk Manager Account"
 msgstr ""
 
-#: /usr/src/freepbx/fw_ari/htdocs_ari/includes/common.php:201
-#: /usr/src/freepbx/fw_ari/htdocs_ari/includes/common.php:216
+#: htdocs_ari/includes/common.php:201
+#: htdocs_ari/includes/common.php:216
 msgid "Check AMP installation, asterisk, and ARI main.conf"
 msgstr ""
 
-#: /usr/src/freepbx/fw_ari/htdocs_ari/includes/common.php:178
-#: /usr/src/freepbx/fw_ari/htdocs_ari/includes/common.php:190
+#: htdocs_ari/includes/common.php:178
+#: htdocs_ari/includes/common.php:190
 msgid ""
 "Check the ARI 'main.conf.php' configuration file to set the Asterisk Manager "
 "Account."
 msgstr ""
 
-#: /usr/src/freepbx/fw_ari/htdocs_ari/theme/page.tpl.php:118
+#: htdocs_ari/theme/page.tpl.php:118
 msgid "Close"
 msgstr ""
 
-#: /usr/src/freepbx/fw_ari/htdocs_ari/theme/page.tpl.php:119
+#: htdocs_ari/theme/page.tpl.php:119
 msgid "Continue"
 msgstr ""
 
-#: /usr/src/freepbx/fw_ari/htdocs_ari/theme/page.tpl.php:124
+#: htdocs_ari/theme/page.tpl.php:124
 msgid ""
 "Custom Goto contexts must contain the string \"custom-\".  ie: custom-app,s,1"
 msgstr ""
 
-#: /usr/src/freepbx/fw_ari/htdocs_ari/includes/main.conf.php:255
+#: htdocs_ari/includes/main.conf.php:255
 msgid "Dial Voicemail"
 msgstr ""
 
-#: /usr/src/freepbx/fw_ari/htdocs_ari/includes/main.conf.php:252
+#: htdocs_ari/includes/main.conf.php:252
 msgid "Do-Not-Disturb Activate"
 msgstr ""
 
-#: /usr/src/freepbx/fw_ari/htdocs_ari/includes/main.conf.php:253
+#: htdocs_ari/includes/main.conf.php:253
 msgid "Do-Not-Disturb Deactivate"
 msgstr ""
 
-#: /usr/src/freepbx/fw_ari/htdocs_ari/theme/page.tpl.php:122
+#: htdocs_ari/theme/page.tpl.php:122
 msgid "Error: Did not receive valid response from server"
 msgstr ""
 
-#: /usr/src/freepbx/fw_ari/htdocs_ari/includes/main.conf.php:155
+#: htdocs_ari/includes/main.conf.php:155
 msgid "Family"
 msgstr ""
 
-#: /usr/src/freepbx/fw_ari/htdocs_ari/includes/display.php:206
+#: htdocs_ari/includes/display.php:206
 msgid "First"
 msgstr ""
 
-#: /usr/src/freepbx/fw_ari/htdocs_ari/theme/page.tpl.php:78
+#: htdocs_ari/theme/page.tpl.php:78
 msgid "Folders"
 msgstr ""
 
-#: /usr/src/freepbx/fw_ari/htdocs_ari/includes/login.php:471
+#: htdocs_ari/includes/login.php:471
 msgid ""
 "For password maintenance or assistance, contact your Phone System "
 "Administrator."
 msgstr ""
 
-#: /usr/src/freepbx/fw_ari/htdocs_ari/includes/main.conf.php:157
+#: fw_ari.i18n.php:3
+msgid "FreePBX ARI Framework"
+msgstr ""
+
+#: htdocs_ari/includes/main.conf.php:157
 msgid "Friends"
 msgstr ""
 
-#: /usr/src/freepbx/fw_ari/htdocs_ari/includes/main.conf.php:153
+#: htdocs_ari/includes/main.conf.php:153
 msgid "INBOX"
 msgstr ""
 
-#: /usr/src/freepbx/fw_ari/htdocs_ari/includes/login.php:203
-#: /usr/src/freepbx/fw_ari/htdocs_ari/includes/login.php:275
-#: /usr/src/freepbx/fw_ari/htdocs_ari/includes/login.php:287
+#: htdocs_ari/includes/login.php:203
+#: htdocs_ari/includes/login.php:275
+#: htdocs_ari/includes/login.php:287
 msgid "Incorrect Username or Password"
 msgstr ""
 
-#: /usr/src/freepbx/fw_ari/htdocs_ari/includes/display.php:219
+#: htdocs_ari/includes/display.php:219
 msgid "Last"
 msgstr ""
 
-#: /usr/src/freepbx/fw_ari/htdocs_ari/includes/login.php:420
-#: /usr/src/freepbx/fw_ari/htdocs_ari/includes/login.php:428
+#: htdocs_ari/includes/login.php:420
+#: htdocs_ari/includes/login.php:428
 msgid "Login"
 msgstr ""
 
-#: /usr/src/freepbx/fw_ari/htdocs_ari/includes/common.php:377
+#: htdocs_ari/includes/common.php:377
 msgid "Logout"
 msgstr ""
 
-#: /usr/src/freepbx/fw_ari/htdocs_ari/includes/callme.php:98
+#: htdocs_ari/includes/callme.php:98
 #, php-format
 msgid ""
 "Malformed callme number passed to callme_startcall $from field could be "
 "Security Breach: %s"
 msgstr ""
 
-#: /usr/src/freepbx/fw_ari/htdocs_ari/includes/callme.php:94
+#: htdocs_ari/includes/callme.php:94
 #, php-format
 msgid ""
 "Malformed callme number passed to callme_startcall $to field could be "
 "Security Breach: %s"
 msgstr ""
 
-#: /usr/src/freepbx/fw_ari/htdocs_ari/includes/main.conf.php:254
+#: htdocs_ari/includes/main.conf.php:254
 msgid "My Voicemail"
 msgstr ""
 
-#: /usr/src/freepbx/fw_ari/install.php:47
+#: install.php:47
 #, php-format
 msgid "No directory %s, install script not needed"
 msgstr ""
 
-#: /usr/src/freepbx/fw_ari/htdocs_ari/includes/main.conf.php:159
+#: htdocs_ari/includes/main.conf.php:159
 msgid "Old"
 msgstr ""
 
-#: /usr/src/freepbx/fw_ari/htdocs_ari/includes/bootstrap.php:247
+#: htdocs_ari/includes/bootstrap.php:247
 msgid ""
 "PHP PEAR must be installed.  Visit http://pear.php.net for help with "
 "installation."
 msgstr ""
 
-#: /usr/src/freepbx/fw_ari/htdocs_ari/includes/common.php:382
+#: htdocs_ari/includes/common.php:382
 msgid "Page Not Found."
 msgstr ""
 
-#: /usr/src/freepbx/fw_ari/htdocs_ari/includes/login.php:436
+#: htdocs_ari/includes/login.php:436
 msgid "Password"
 msgstr ""
 
-#: /usr/src/freepbx/fw_ari/htdocs_ari/theme/page.tpl.php:123
+#: htdocs_ari/theme/page.tpl.php:123
 msgid "Please select a \"Destination\""
 msgstr ""
 
-#: /usr/src/freepbx/fw_ari/htdocs_ari/misc/callme_page.php:15
+#: htdocs_ari/misc/callme_page.php:15
 msgid "Potential malicious access blocked in the User Portal (ARI)"
 msgstr ""
 
-#: /usr/src/freepbx/fw_ari/htdocs_ari/includes/login.php:453
+#: htdocs_ari/includes/login.php:453
 msgid "Remember Password"
 msgstr ""
 
-#: /usr/src/freepbx/fw_ari/htdocs_ari/includes/display.php:144
+#: htdocs_ari/includes/display.php:144
 #, php-format
 msgid "Results %d"
 msgstr ""
 
-#: /usr/src/freepbx/fw_ari/htdocs_ari/includes/display.php:142
+#: htdocs_ari/includes/display.php:142
 #, php-format
 msgid "Results %d - %d of %d"
 msgstr ""
 
-#: /usr/src/freepbx/fw_ari/htdocs_ari/theme/page.tpl.php:121
+#: htdocs_ari/theme/page.tpl.php:121
 msgid "Retry"
 msgstr ""
 
-#: /usr/src/freepbx/fw_ari/htdocs_ari/includes/display.php:94
+#: htdocs_ari/includes/display.php:94
 msgid "Search"
 msgstr ""
 
-#: /usr/src/freepbx/fw_ari/htdocs_ari/includes/display.php:138
+#: htdocs_ari/includes/display.php:138
 msgid "Searched for"
 msgstr ""
 
-#: /usr/src/freepbx/fw_ari/htdocs_ari/includes/login.php:445
+#: htdocs_ari/includes/login.php:445
 msgid "Submit"
 msgstr ""
 
-#: /usr/src/freepbx/fw_ari/htdocs_ari/misc/callme_page.php:60
+#: htdocs_ari/misc/callme_page.php:60
 msgid "The call was terminated."
 msgstr ""
 
-#: /usr/src/freepbx/fw_ari/htdocs_ari/theme/page.tpl.php:125
+#: htdocs_ari/theme/page.tpl.php:125
 msgid "The secret must be at minimum six characters in length."
 msgstr ""
 
-#: /usr/src/freepbx/fw_ari/htdocs_ari/theme/page.tpl.php:126
+#: htdocs_ari/theme/page.tpl.php:126
 msgid "The secret must contain at least two numbers and two letters."
 msgstr ""
 
-#: /usr/src/freepbx/fw_ari/htdocs_ari/includes/login.php:469
+#: htdocs_ari/includes/login.php:469
 msgid "This is the same password used for the phone"
 msgstr ""
 
-#: /usr/src/freepbx/fw_ari/htdocs_ari/includes/bootstrap.php:125
+#: fw_ari.i18n.php:5
+msgid ""
+"This module provides a facility to install bug fixes to the ARI code that is "
+"not otherwise housed in a module, it used to be part of framework but has "
+"been removed to isolate ARI from Framework updates."
+msgstr ""
+
+#: htdocs_ari/includes/bootstrap.php:125
 #, php-format
 msgid "Too many directories in %s. Not all files processed"
 msgstr ""
 
-#: /usr/src/freepbx/fw_ari/htdocs_ari/includes/bootstrap.php:116
+#: htdocs_ari/includes/bootstrap.php:116
 #, php-format
 msgid "Too many files in %s. Not all files processed"
 msgstr ""
 
-#: /usr/src/freepbx/fw_ari/install.php:99
+#: install.php:99
 #, php-format
 msgid "Uninstalling outdated %s module..."
 msgstr ""
 
-#: /usr/src/freepbx/fw_ari/htdocs_ari/includes/main.conf.php:163
+#: htdocs_ari/includes/main.conf.php:163
 msgid "Urgent"
 msgstr ""
 
-#: /usr/src/freepbx/fw_ari/htdocs_ari/includes/login.php:468
+#: htdocs_ari/includes/login.php:468
 msgid "Use your <b>Voicemail Mailbox and Password</b>"
 msgstr ""
 
-#: /usr/src/freepbx/fw_ari/htdocs_ari/includes/main.conf.php:161
+#: fw_ari.i18n.php:6
+msgid "User Panel"
+msgstr ""
+
+#: htdocs_ari/includes/main.conf.php:161
 msgid "Work"
 msgstr ""
 
-#: /usr/src/freepbx/fw_ari/install.php:87
+#: install.php:87
 msgid "an error occured removing the packaged files"
 msgstr ""
 
-#: /usr/src/freepbx/fw_ari/install.php:64
+#: install.php:64
 msgid "done"
 msgstr ""
 
-#: /usr/src/freepbx/fw_ari/install.php:62
+#: install.php:62
 msgid "done, see errors below"
 msgstr ""
 
-#: /usr/src/freepbx/fw_ari/install.php:89
+#: install.php:89
 msgid "files removed successfully"
 msgstr ""
 
-#: /usr/src/freepbx/fw_ari/install.php:11
+#: install.php:11
 #, php-format
 msgid "fw_ari couldn't copy file to %s"
 msgstr ""
 
-#: /usr/src/freepbx/fw_ari/install.php:82
+#: install.php:82
 msgid "fw_ari file install done, removing packages from module"
 msgstr ""
 
-#: /usr/src/freepbx/fw_ari/install.php:51
+#: install.php:51
 #, php-format
 msgid "installing files to %s.."
 msgstr ""
 
-#: /usr/src/freepbx/fw_ari/install.php:71
+#: install.php:71
 msgid "linking libfreepbx.javascripts.js to theme/js.."
 msgstr ""
 
-#: /usr/src/freepbx/fw_ari/htdocs_ari/includes/common.php:180
-#: /usr/src/freepbx/fw_ari/htdocs_ari/includes/common.php:192
+#: htdocs_ari/includes/common.php:180
+#: htdocs_ari/includes/common.php:192
 msgid ""
 "make sure [general] enabled = yes and a 'permit=' line for localhost or the "
 "webserver."
 msgstr ""
 
-#: /usr/src/freepbx/fw_ari/install.php:73
+#: install.php:73
 msgid "ok"
 msgstr ""
 
-#: /usr/src/freepbx/fw_ari/install.php:75
+#: install.php:75
 msgid "possible error - check warning message"
 msgstr ""
