@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-05-05 21:29+0200\n"
-"PO-Revision-Date: 2015-04-23 03:52+0200\n"
-"Last-Translator: Andrew <andrew.nagy@the159.com>\n"
+"PO-Revision-Date: 2015-04-23 20:05+0200\n"
+"Last-Translator: philippebolduc <philippe@florenceinc.com>\n"
 "Language-Team: French "
 "<http://weblate.freepbx.org/projects/freepbx/fw_ari/fr_FR/>\n"
 "Language: fr_FR\n"
@@ -472,7 +472,7 @@ msgstr "Inconditionnel :"
 
 #: modules/phonefeatures.module:154
 msgid "Unavailable:"
-msgstr ""
+msgstr "Non disponible :"
 
 #: modules/phonefeatures.module:155
 msgid "Busy:"
@@ -863,11 +863,11 @@ msgstr ""
 
 #: modules/VmX.module:302
 msgid "unavailable"
-msgstr ""
+msgstr "Non disponible"
 
 #: modules/VmX.module:304
 msgid "busy"
-msgstr ""
+msgstr "occupé"
 
 #: modules/VmX.module:308
 msgid "Voicemail Instructions:"
