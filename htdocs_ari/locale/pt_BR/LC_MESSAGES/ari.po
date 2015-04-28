@@ -21,12 +21,16 @@ msgstr ""
 "Project-Id-Version: fw_ari-2.10.0.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-12-14 07:08+0100\n"
-"PO-Revision-Date: 2013-02-11 20:18-0300\n"
-"Last-Translator: Luis Felipe Marzagao <duli@easylifeproject.org>\n"
-"Language-Team: Luis Felipe Marzagao <duli@easylifeproject.org>\n"
+"PO-Revision-Date: 2015-04-28 09:02+0200\n"
+"Last-Translator: Renato <fiuza@tecnologia.inf.br>\n"
+"Language-Team: Portuguese (Brazil) "
+"<http://weblate.freepbx.org/projects/freepbx/fw_ari/pt_BR/>\n"
+"Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.2-dev\n"
 "X-Poedit-Language: Portuguese\n"
 "X-Poedit-Country: BRAZIL\n"
 
@@ -72,7 +76,7 @@ msgid "Logout"
 msgstr "Sair"
 
 msgid "Page Not Found."
-msgstr "Página Não Encontrada"
+msgstr "Página Não Encontrada."
 
 msgid "Search"
 msgstr "Procurar"
@@ -300,7 +304,7 @@ msgstr ""
 "\t\t\t\t\t\t\t\t\t\t\t\t\tajuste de ativar/desativar."
 
 msgid "Follow Me List:"
-msgstr "Lista de Siga-Me"
+msgstr "Lista de Siga-Me:"
 
 #, php-format
 msgid "Extensions and outside numbers to ring next."
@@ -376,7 +380,7 @@ msgid "Number %s must contain dial numbers (characters like '(', '-', and ')' ar
 msgstr "Número %s deve conter números de discagem (caracteres como '(', '-', e ')' são permitidos)"
 
 msgid "Call Screening:"
-msgstr "Apresentação de Chamada"
+msgstr "Rastreio de Chamada:"
 
 msgid "Call Screening requires external callers to say their name, which will be played back to the user and allow the user to accept or reject the call.  Screening with memory only verifies a caller for their caller-id once. Screening without memory always requires a caller to say their name. Either mode will always announce the caller based on the last introduction saved with that callerid. If any user on the system uses the memory option, when that user is called, the caller will be required to re-introduce themselves and all users on the system will have that new introduction associated with the caller's CallerId."
 msgstr "Apresentação de Chamada requer que a pessoa ligando diga o nome dela, que será reproduzido para o usuário e permitirá que ele aceite ou rejeite a ligação. Aviso com memória somente verifica a identificação da pessoa que está chamando uma vez. Aviso sem memória sempre requer que a pessoa diga o nome dela. Qualquer um dos modos sempre anunciará o nome da pessoa chamando baseando-se na última apresentação gravada com a identificação. Se qualquer usuário no sistema usar a opção de memória, quando esse usuário é chamado, a pessoa chamando será requisitada a se apresentar novamente e todos os usuários no sistema terão essa nova apresentação associada com a identificação da pessoa que está chamando."
@@ -397,7 +401,7 @@ msgid "Number of seconds to ring prior to going to voicemail or other fail over 
 msgstr "Número de segundos para tocar antes de ir para o correio de voz ou outro destino de escape que pode ser configurado por um administrador desta conta. O ajuste Sempre irá tocar o destino de encaminhamento da ligação até que seja atendido ou a pessoa que está ligando desligue. O ajuste Padrão usará o valor configurado em Tempo de Toque. Sua configuração aqui será forçada para Sempre se não houver Correio de voz ou outro destino de escape para onde a ligação deva ir."
 
 msgid "Ringtimer:"
-msgstr "Ringtimer:"
+msgstr "Tempo de Toque:"
 
 msgid "Number of seconds to ring prior to going to voicemail or ringing other numbers that may be configured such as a Call Forward Unavailabe or an Unavailable destination that may be configured by your administrator. The Default setting will use the value set for the PBX."
 msgstr "Número de segundo para tocar antes de ir para correio de voz ou tocar outros números que tenham sido configurados como Encaminhamando de Chamada Indisponível ou um destino Indisponível que tenha sido configurados pelo seu administrador. A configuração Padrão irá usar o valor ajustado para o PBX."
@@ -643,7 +647,7 @@ msgid "Uncheck to play a beep after your personal voicemail greeting."
 msgstr "Desmarque para tocar um bipe após sua mensagem pessoal de bem vindo do correio de voz."
 
 msgid "Standard voicemail prompts."
-msgstr "Instruções padrão de correio de voz"
+msgstr "Prompts padrões de correio de voz."
 
 msgid "Press 0:"
 msgstr "Pressione 0:"
@@ -699,7 +703,7 @@ msgid "You must enter one or more email addresses (comma-separated) before click
 msgstr "Você deve digitar um ou mais endereços de email (separados por vírgula) antes de clicar email_para."
 
 msgid "Warning: "
-msgstr "Aviso:"
+msgstr "Aviso: "
 
 msgid "is not a valid email address"
 msgstr "não é um endereço válido de email"
@@ -741,7 +745,7 @@ msgid "Playback"
 msgstr "Reproduzir"
 
 msgid "Play message at: "
-msgstr "Reproduzir mensagem em:"
+msgstr "Reproduzir mensagem em: "
 
 msgid "Voicemail recording(s) was not found."
 msgstr "Gravação(ões) de Correio de voz não encontrada(s)."
@@ -764,7 +768,7 @@ msgid "Voicemail for %s (%s)"
 msgstr "Correio de voz para %s (%s)"
 
 msgid "Calling: "
-msgstr "Chamando:"
+msgstr "Chamando: "
 
 msgid ". Please wait patiently..."
 msgstr ". Por favor aguarde pacientemente..."
@@ -785,4 +789,3 @@ msgstr "Pastas"
 
 msgid "Original work based on ARI from Littlejohn Consulting"
 msgstr "Trabalho original baseado no ARI de Littlejohn Consulting"
-
