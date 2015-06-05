@@ -3,11 +3,13 @@
 	<modtype>framework</modtype>
 	<repo>unsupported</repo>
 	<name>FreePBX ARI Framework</name>
-	<version>12.0.7</version>
+	<version>12.0.8</version>
 	<publisher>Schmooze Com Inc</publisher>
 	<license>GPLv3+</license>
 	<licenselink>http://www.gnu.org/licenses/gpl-3.0.txt</licenselink>
+	<candisable>no</candisable>
 	<changelog>
+		*12.0.8* Dont allow disabling. It does nothing.
 		*12.0.7* Move ARI settings to this module so they can be uninstalled
 		*12.0.6* Move from supported to unsupported
 		*12.0.5* FREEPBX-8070 SECURITY ISSUE Exec shell on a host using bug in Asterisk Recording Interface index.php
@@ -51,7 +53,7 @@
 		*2.9.0.0* #4509, #4134, #4501, #4427, #4332, #4652, #4621, #4401, #4482, #4566
 	</changelog>
 	<description>
-		This module provides a facility to install bug fixes to the ARI code that is not otherwise housed in a module, it used to be part of framework but has been removed to isolate ARI from Framework updates.
+		**This module has been superseded by the "User Control Panel". Which provides a much better experience. Moving forward this module is depreciated and will not show up in future versions** This module provides a facility to install bug fixes to the ARI code that is not otherwise housed in a module, it used to be part of framework but has been removed to isolate ARI from Framework updates.
 	</description>
 	<supported>
 		<version>12.0</version>
