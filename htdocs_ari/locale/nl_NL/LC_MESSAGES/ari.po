@@ -8,12 +8,16 @@ msgstr ""
 "Project-Id-Version: are-nl\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-03-04 17:00+0100\n"
-"PO-Revision-Date: 2011-03-07 17:27+0100\n"
-"Last-Translator: Jamie Corsius <jamie@minezone.nl>\n"
-"Language-Team: Dutch <jamie@minezone.nl>\n"
+"PO-Revision-Date: 2015-03-19 15:59+0200\n"
+"Last-Translator: Jan Peter <jpveldhuizen@gmail.com>\n"
+"Language-Team: Dutch "
+"<http://weblate.freepbx.org/projects/freepbx/fw_ari/nl_NL/>\n"
+"Language: nl_NL\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.2-dev\n"
 
 #: includes/asi.php:46
 msgid "Asterisk Call Manager not responding"
@@ -21,7 +25,7 @@ msgstr "De Asterisk Call Manager reageert niet"
 
 #: includes/asi.php:54
 msgid "Asterisk authentication failed:"
-msgstr "Asterisk authenticatie mislukt"
+msgstr "Asterisk authenticatie mislukt:"
 
 #: includes/asi.php:96
 #: includes/asi.php:111
@@ -33,16 +37,16 @@ msgstr "Asterisk opdracht niet begrepen"
 #: includes/bootstrap.php:116
 #, php-format
 msgid "Too many files in %s. Not all files processed"
-msgstr "Te veel bestanden in %s. Niet alle bestanden zijn verwerkt."
+msgstr "Te veel bestanden in %s. Niet alle bestanden zijn verwerkt"
 
 #: includes/bootstrap.php:125
 #, php-format
 msgid "Too many directories in %s. Not all files processed"
-msgstr "Te veel mappen in %s. Niet alle bestanden zijn verwerkt."
+msgstr "Te veel mappen in %s. Niet alle bestanden zijn verwerkt"
 
 #: includes/bootstrap.php:228
 msgid "ARI requires a version of PHP 4.3 or later"
-msgstr "ARI heeft versie PHP 4.3 of later nodig."
+msgstr "ARI heeft versie PHP 4.3 of later nodig"
 
 #: includes/bootstrap.php:247
 msgid "PHP PEAR must be installed.  Visit http://pear.php.net for help with installation."
@@ -79,7 +83,7 @@ msgstr "Uitloggen"
 
 #: includes/common.php:405
 msgid "Page Not Found."
-msgstr "Pagina niet gevonden"
+msgstr "Pagina niet gevonden."
 
 #: includes/display.php:92
 msgid "Search"
@@ -220,7 +224,7 @@ msgstr "Bel voicemail"
 
 #: misc/callme_page.php:54
 msgid "The call was terminated."
-msgstr "Het gesprek was beëindigd"
+msgstr "Het gesprek was beëindigd."
 
 #: modules/callmonitor.module:36
 #: modules/callmonitor.module:276
@@ -230,7 +234,7 @@ msgstr "Oproeplijst"
 #: modules/callmonitor.module:72
 #: modules/voicemail.module:169
 msgid "One or more messages must be selected before clicking delete."
-msgstr "Selecteer een of meerder berichten om te verwijderen "
+msgstr "Selecteer een of meerder berichten om te verwijderen ."
 
 #: modules/callmonitor.module:136
 #, php-format
@@ -369,7 +373,7 @@ msgstr "Aantal %s moet een heel aantal seconden zijn"
 
 #: modules/followme.module:141
 msgid "Follow-Me list ring time not changed"
-msgstr "Volg-mij lijst ring tijd niet veranderd "
+msgstr "Volg-mij lijst ring tijd niet veranderd"
 
 #: modules/followme.module:185
 msgid "Follow-Me list must contain at least one valid number"
@@ -404,22 +408,22 @@ msgstr ""
 
 #: modules/followme.module:302
 msgid "Follow Me List:"
-msgstr "Volg mij lijst"
+msgstr "Volg mij lijst:"
 
 #: modules/followme.module:303
 #, php-format
 msgid "Extensions and outside numbers to ring next."
-msgstr "Extensies en externe nummers welke als volgt gebeld worden"
+msgstr "Extensies en externe nummers welke als volgt gebeld worden."
 
 #: modules/followme.module:304
 #, php-format
 msgid "Include %s to keep it ringing."
-msgstr "Neem %s mee om te bellen"
+msgstr "Neem %s mee om te bellen."
 
 #: modules/followme.module:310
 #, php-format
 msgid "Ring %s First For:"
-msgstr "Bel %s Eerst Voor"
+msgstr "Bel %s Eerst Voor:"
 
 #: modules/followme.module:311
 #, php-format
@@ -483,15 +487,15 @@ msgstr "Oproep doorsturen"
 
 #: modules/phonefeatures.module:153
 msgid "Unconditional:"
-msgstr "Onvoorwaardelijk"
+msgstr "Onvoorwaardelijk:"
 
 #: modules/phonefeatures.module:154
 msgid "Unavailable:"
-msgstr "Niet beschikbaar"
+msgstr "Niet beschikbaar:"
 
 #: modules/phonefeatures.module:155
 msgid "Busy:"
-msgstr "Bezet"
+msgstr "Bezet:"
 
 #: modules/phonefeatures.module:167
 #, php-format
@@ -511,8 +515,9 @@ msgid "Number %s must contain dial numbers (characters like '(', '-', and ')' ar
 msgstr "Nummer %s moet de volgende karakters bevatten (bijvoorbeeld '(', '-', and ')' zijn goed)"
 
 #: modules/phonefeatures.module:422
+#, fuzzy
 msgid "Call Screening:"
-msgstr "Oproep Screening"
+msgstr "Oproep Screening:"
 
 #: modules/phonefeatures.module:422
 msgid "Call Screening requires external callers to say their name, which will be played back to the user and allow the user to accept or reject the call.  Screening with memory only verifies a caller for their caller-id once. Screening without memory always requires a caller to say their name. Either mode will always announce the caller based on the last introduction saved with that callerid. If any user on the system uses the memory option, when that user is called, the caller will be required to re-introduce themselves and all users on the system will have that new introduction associated with the caller's CallerId."
@@ -536,7 +541,7 @@ msgstr "Voeg voicemail bijlage toe aan e-mail"
 
 #: modules/settings.module:45
 msgid "Option to attach audio file to email."
-msgstr "Mogelijkheid om audio bestand als bijlage aan e-mail toe te voegen"
+msgstr "Mogelijkheid om audio bestand als bijlage aan e-mail toe te voegen."
 
 #: modules/settings.module:60
 msgid "Number of deleted messages to backup"
@@ -552,7 +557,10 @@ msgstr "Verwijder voicemail na versturen van e-mail"
 
 #: modules/settings.module:77
 msgid "When enabled the message will be deleted from the voicemailbox after the notification email is sent. This allows receiving voicemail via email alone, rather than having the voicemail available from the Web interface or by telephone. CAUTION: Attach voicemail to email must be enabled, OTHERWISE YOUR MESSAGES WILL BE LOST FOREVER."
-msgstr "Wanneer aangevinkt zal het bericht verwijderd worden van de voicemailbox nadat de e-mail verstuurd is. LET OP: voeg voicemail toe aan email moet moet aangevinkt zijn ANDERS GAAN AL JE VOICEMAIL BERICHTEN VERLOREN "
+msgstr ""
+"Wanneer aangevinkt zal het bericht verwijderd worden van de voicemailbox "
+"nadat de e-mail verstuurd is. LET OP: voeg voicemail toe aan email moet moet "
+"aangevinkt zijn ANDERS GAAN AL JE VOICEMAIL BERICHTEN VERLOREN."
 
 #: modules/settings.module:92
 msgid "Say envelope (date/time)"
@@ -592,7 +600,7 @@ msgstr "Beluister opname"
 
 #: modules/settings.module:193
 msgid "Allow caller to review their voicemail before saving it."
-msgstr "Sta gebruiker toe zijn voicemail te beluisteren voor deze op te slaan"
+msgstr "Sta gebruiker toe zijn voicemail te beluisteren voor deze op te slaan."
 
 #: modules/settings.module:199
 msgid "Say caller ID"
@@ -600,7 +608,9 @@ msgstr "Zeg telefoonnummer"
 
 #: modules/settings.module:200
 msgid "After announcing the message date and time, play back the caller's telephone number before each message."
-msgstr "Na het afspelen van de datum en tijd van het bericht, zeg voor elk bericht het telefoonnummer van de beller"
+msgstr ""
+"Na het afspelen van de datum en tijd van het bericht, zeg voor elk bericht "
+"het telefoonnummer van de beller."
 
 #: modules/settings.module:206
 msgid "Say duration"
@@ -662,12 +672,12 @@ msgstr "Wachtwoord en wachtwoord controle mogen niet leeg zijn"
 #: modules/settings.module:413
 #, php-format
 msgid "Passwords must be all numbers and greater than %d digits"
-msgstr "Wachtwoorden moeten allemaal nummers zijn en groter dan %d karakters."
+msgstr "Wachtwoorden moeten allemaal nummers zijn en groter dan %d karakters"
 
 #: modules/settings.module:418
 #, php-format
 msgid "Passwords must be all numbers and only %d digits"
-msgstr "Wachtwoorden moeten allemaal nummers zijn en alleen %d karakters."
+msgstr "Wachtwoorden moeten allemaal nummers zijn en alleen %d karakters"
 
 #: modules/settings.module:423
 msgid "Password and password confirm do not match"
@@ -692,17 +702,17 @@ msgstr "Voicemail e-mail instellingen niet gewijzigd"
 
 #: modules/settings.module:745
 msgid "Language:"
-msgstr "Taal"
+msgstr "Taal:"
 
 #: modules/settings.module:755
 #, php-format
 msgid "Passwords must be all numbers and only %s digits"
-msgstr "Wachtwoorden moeten allemaal nummers zijn en alleen %s karakters."
+msgstr "Wachtwoorden moeten allemaal nummers zijn en alleen %s karakters"
 
 #: modules/settings.module:758
 #, php-format
 msgid "Passwords must be all numbers and at least %s digits"
-msgstr "Wachtwoorden moeten allemaal nummers zijn en minstens %s karakters."
+msgstr "Wachtwoorden moeten allemaal nummers zijn en minstens %s karakters"
 
 #: modules/settings.module:763
 msgid "Password Settings"
@@ -714,7 +724,7 @@ msgstr "Voicemail wachtwoord:"
 
 #: modules/settings.module:773
 msgid "Enter again to confirm:"
-msgstr "Geef opnieuw in om te bevestigen"
+msgstr "Geef opnieuw in om te bevestigen:"
 
 #: modules/settings.module:841
 msgid "Email Address:"
@@ -722,7 +732,7 @@ msgstr "E-mail adres:"
 
 #: modules/settings.module:841
 msgid "Email a notification, including audio file if indicated below."
-msgstr "E-mail een notificatie, inclusief audio bestand indien aangevinkt "
+msgstr "E-mail een notificatie, inclusief audio bestand indien aangevinkt."
 
 #: modules/settings.module:852
 msgid "Pager Email Address:"
@@ -734,15 +744,17 @@ msgstr "E-mail een korte notificatie"
 
 #: modules/settings.module:948
 msgid "Call Me Number:"
-msgstr "Terugbel nummer"
+msgstr "Terugbel nummer:"
 
 #: modules/settings.module:948
 msgid "Call Me Number can be any dialable number, such as an extension or a cellphone."
-msgstr "Terugbel nummer kan elk nummer zijn, zoals een extensie of een mobiele telefoon"
+msgstr ""
+"Terugbel nummer kan elk nummer zijn, zoals een extensie of een mobiele "
+"telefoon."
 
 #: modules/settings.module:983
 msgid "Audio Format:"
-msgstr "Audio Formaat"
+msgstr "Audio Formaat:"
 
 #: modules/settings.module:986
 msgid "Default"
@@ -935,7 +947,7 @@ msgstr "U moet een of meer e-mail adressen ingeven (komma gescheiden) alvorens e
 
 #: modules/voicemail.module:222
 msgid "Warning: "
-msgstr "Waarschuwing:"
+msgstr "Waarschuwing: "
 
 #: modules/voicemail.module:222
 msgid "is not a valid email address"
@@ -991,7 +1003,7 @@ msgstr "Afspelen"
 
 #: modules/voicemail.module:556
 msgid "Play message at: "
-msgstr "Speel bericht af:"
+msgstr "Speel bericht af: "
 
 #: modules/voicemail.module:561
 msgid "Voicemail recording(s) was not found."
@@ -1021,7 +1033,7 @@ msgstr "Voicemail voor %s (%s)"
 
 #: modules/voicemail.module:637
 msgid "Calling: "
-msgstr "Bellen:"
+msgstr "Bellen: "
 
 #: modules/voicemail.module:638
 msgid ". Please wait patiently..."
@@ -1044,4 +1056,3 @@ msgstr "Mappen"
 #: theme/page.tpl.php:79
 msgid "Original work based on ARI from Littlejohn Consulting"
 msgstr "Orgineel werk gebasseerd op ARI"
-
