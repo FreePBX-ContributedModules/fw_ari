@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-20 19:34-0500\n"
+"POT-Creation-Date: 2015-06-05 13:32-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,10 +34,6 @@ msgstr ""
 
 #: htdocs_ari/includes/bootstrap.php:228
 msgid "ARI requires a version of PHP 4.3 or later"
-msgstr ""
-
-#: fw_ari.i18n.php:4
-msgid "Admin"
 msgstr ""
 
 #: htdocs_ari/includes/asi.php:46
@@ -156,10 +152,6 @@ msgstr ""
 msgid ""
 "For password maintenance or assistance, contact your Phone System "
 "Administrator."
-msgstr ""
-
-#: fw_ari.i18n.php:3
-msgid "FreePBX ARI Framework"
 msgstr ""
 
 #: htdocs_ari/includes/main.conf.php:157
@@ -282,13 +274,6 @@ msgstr ""
 msgid "This is the same password used for the phone"
 msgstr ""
 
-#: fw_ari.i18n.php:5
-msgid ""
-"This module provides a facility to install bug fixes to the ARI code that is "
-"not otherwise housed in a module, it used to be part of framework but has "
-"been removed to isolate ARI from Framework updates."
-msgstr ""
-
 #: htdocs_ari/includes/bootstrap.php:125
 #, php-format
 msgid "Too many directories in %s. Not all files processed"
@@ -310,10 +295,6 @@ msgstr ""
 
 #: htdocs_ari/includes/login.php:468
 msgid "Use your <b>Voicemail Mailbox and Password</b>"
-msgstr ""
-
-#: fw_ari.i18n.php:6
-msgid "User Panel"
 msgstr ""
 
 #: htdocs_ari/includes/main.conf.php:161
