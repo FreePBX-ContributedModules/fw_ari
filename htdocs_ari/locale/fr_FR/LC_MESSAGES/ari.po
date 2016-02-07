@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-05-05 21:29+0200\n"
-"PO-Revision-Date: 2016-02-06 09:15+0200\n"
+"PO-Revision-Date: 2016-02-06 22:22+0200\n"
 "Last-Translator: Nicolas Riendeau <freepbx@riendeau.org>\n"
 "Language-Team: French "
 "<http://weblate.freepbx.org/projects/freepbx/fw_ari/fr_FR/>\n"
@@ -35,12 +35,12 @@ msgstr "Asterisk: commande non comprise"
 #: includes/bootstrap.php:116
 #, php-format
 msgid "Too many files in %s. Not all files processed"
-msgstr ""
+msgstr "Trop de fichiers dans %s. Ils ne seront pas tous traités"
 
 #: includes/bootstrap.php:125
 #, php-format
 msgid "Too many directories in %s. Not all files processed"
-msgstr ""
+msgstr "Trop de répertoires dans %s. Ils ne seront pas tous traités"
 
 #: includes/bootstrap.php:228
 msgid "ARI requires a version of PHP 4.3 or later"
@@ -464,7 +464,7 @@ msgstr "Ne pas déranger"
 
 #: modules/phonefeatures.module:151
 msgid "Call Forwarding"
-msgstr ""
+msgstr "Renvoi d'appel"
 
 #: modules/phonefeatures.module:153
 msgid "Unconditional:"
