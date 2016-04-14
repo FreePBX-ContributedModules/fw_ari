@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-12-14 07:08+0100\n"
-"PO-Revision-Date: 2016-04-14 11:41+0200\n"
+"PO-Revision-Date: 2016-04-14 11:40+0300\n"
 "Last-Translator: Media <mousavi.media@gmail.com>\n"
 "Language-Team: Persian (Iran) "
 "<http://weblate.freepbx.org/projects/freepbx/fw_ari/fa_IR/>\n"
@@ -50,254 +50,258 @@ msgid "Too many directories in %s. Not all files processed"
 msgstr "تعداد زیادی دایرکتوری در %s. تمام فایل ها پردازش نشد"
 
 msgid "ARI requires a version of PHP 4.3 or later"
-msgstr ""
+msgstr "پنل مدیریت کاربری به PHP نسخه 4.3 یا بالاتر نیاز دارد"
 
 msgid ""
 "PHP PEAR must be installed.  Visit http://pear.php.net for help with "
 "installation."
 msgstr ""
+"باید PHP PEAR نصب شود. برای نصب و راهنمایی به آدرس http://pear.php.net "
+"مراجعه کنید."
 
 msgid "ARI does not appear to have access to the Asterisk Manager."
-msgstr ""
+msgstr "پنل مدیریت کاربری به بخش مدیریت استریسک دسترسی ندارد."
 
 msgid ""
 "Check the ARI 'main.conf.php' configuration file to set the Asterisk Manager "
 "Account."
-msgstr ""
+msgstr "بررسی تنظیم مدیریت استریسک در فایل پیکربندی 'main.conf.php'."
 
 msgid "Check /etc/asterisk/manager.conf for a proper Asterisk Manager Account"
-msgstr ""
+msgstr "بررسی /etc/asterisk/manager.conf برای حساب کاربری مدیریت مخصوص استریسک"
 
 msgid ""
 "make sure [general] enabled = yes and a 'permit=' line for localhost or the "
 "webserver."
 msgstr ""
+"اطمینان از [عموما] فعال شده = بله و 'مجاز=' خط برای سرور محلی یا وب سرور"
 
 msgid "Check AMP installation, asterisk, and ARI main.conf"
-msgstr ""
+msgstr "Check AMP  installation, asterisk, and ARI main.conf"
 
 msgid "Logout"
-msgstr ""
+msgstr "خروج"
 
 msgid "Page Not Found."
-msgstr ""
+msgstr "صفحه یافت نشد."
 
 msgid "Search"
-msgstr ""
+msgstr "جستجو"
 
 msgid "Searched for"
-msgstr ""
+msgstr "جستجو برای"
 
 #, php-format
 msgid "Results %d - %d of %d"
-msgstr ""
+msgstr "نتایج %d - %d از %d"
 
 #, php-format
 msgid "Results %d"
-msgstr ""
+msgstr "نتایج %d"
 
 msgid "First"
-msgstr ""
+msgstr "اولین"
 
 msgid "Last"
-msgstr ""
+msgstr "آخرین"
 
 msgid "Incorrect Username or Password"
-msgstr ""
+msgstr "نام کاربری یا کلمه عبور نادرست است"
 
 msgid "Login"
-msgstr ""
+msgstr "ورود"
 
 msgid "Password"
-msgstr ""
+msgstr "کلمه عبور"
 
 msgid "Submit"
-msgstr ""
+msgstr "ارسال"
 
 msgid "Remember Password"
-msgstr ""
+msgstr "به خاطر بسپار"
 
 msgid "Use your <b>Voicemail Mailbox and Password</b>"
-msgstr ""
+msgstr "از <b> صندوق صوتی و کلمه عبور </b> استفاده کنید"
 
 msgid "This is the same password used for the phone"
-msgstr ""
+msgstr "این کلمه عبور برای تلفن استفاده شده است"
 
 msgid ""
 "For password maintenance or assistance, contact your Phone System "
 "Administrator."
-msgstr ""
+msgstr "برای تغییر کلمه عبور و دریافت راهنمایی، با مدیر سیستم تلفن تماس بگیرید."
 
 msgid "INBOX"
-msgstr ""
+msgstr "صندوق ورودی"
 
 msgid "Family"
-msgstr ""
+msgstr "فامیل"
 
 msgid "Friends"
-msgstr ""
+msgstr "دوستان"
 
 msgid "Old"
-msgstr ""
+msgstr "قدیمی"
 
 msgid "Work"
-msgstr ""
+msgstr "شرکت"
 
 msgid "Call Forward All Activate"
-msgstr ""
+msgstr "انتقال برای همه تماس ها فعال است"
 
 msgid "Call Forward All Deactivate"
-msgstr ""
+msgstr "انتقال برای همه تماس ها غیرفعال است"
 
 msgid "Call Forward All Prompting Deactivate"
-msgstr ""
+msgstr "دلیل غیرفعال شدن انتقال تمام تماس ها"
 
 msgid "Call Forward Busy Activate"
-msgstr ""
+msgstr "انتقال تماس های در صورت مشغولی فعال شد"
 
 msgid "Call Forward Busy Deactivate"
-msgstr ""
+msgstr "انتقال تماس های در صورت مشغولی غیرفعال شد"
 
 msgid "Call Forward Busy Prompting Deactivate"
-msgstr ""
+msgstr "دلیل غیرفعال شدن انتقال تماس های اشغال"
 
 msgid "Call Forward No Answer/Unavailable Activate"
-msgstr ""
+msgstr "انتقال تماس های بدون پاسخ/عدم دسترس فعال شد"
 
 msgid "Call Forward No Answer/Unavailable Deactivate"
-msgstr ""
+msgstr "انتقال تماس های بدون پاسخ/عدم دسترس غیرفعال شد"
 
 msgid "Call Waiting - Activate"
-msgstr ""
+msgstr "انتظار مکالمه - فعال"
 
 msgid "Call Waiting - Deactivate"
-msgstr ""
+msgstr "انتظار مکالمه - غیرفعال"
 
 msgid "Do-Not-Disturb Activate"
-msgstr ""
+msgstr "مزاحم نشوید فعال"
 
 msgid "Do-Not-Disturb Deactivate"
-msgstr ""
+msgstr "مزاحم نشوید غیر فعال"
 
 msgid "My Voicemail"
-msgstr ""
+msgstr "صندوق صوتی من"
 
 msgid "Dial Voicemail"
-msgstr ""
+msgstr "شماره گیری صندوق صوتی"
 
 msgid "Call Monitor"
-msgstr ""
+msgstr "مشاهده تماس"
 
 msgid "One or more messages must be selected before clicking delete."
-msgstr ""
+msgstr "قبل از حذف باید یک یا چند پیام را انتخاب کنید."
 
 #, php-format
 msgid "Path is not a directory: %s"
-msgstr ""
+msgstr "این مسیر یک دایرکتوری نیست: %s"
 
 msgid "delete"
-msgstr ""
+msgstr "حذف کردن"
 
 msgid "duration"
-msgstr ""
+msgstr "در مدت"
 
 msgid "ignore"
-msgstr ""
+msgstr "لغو"
 
 msgid "Date"
-msgstr ""
+msgstr "تاریخ"
 
 msgid "Time"
-msgstr ""
+msgstr "ساعت"
 
 msgid "Caller ID"
-msgstr ""
+msgstr "شناسه تماس گیرنده"
 
 msgid "Source"
-msgstr ""
+msgstr "منبع"
 
 msgid "Destination"
-msgstr ""
+msgstr "مقصد"
 
 msgid "Context"
-msgstr ""
+msgstr "زمینه"
 
 msgid "Duration"
-msgstr ""
+msgstr "در مدت"
 
 msgid "Monitor"
-msgstr ""
+msgstr "مانیتور"
 
 msgid "Play"
-msgstr ""
+msgstr "پخش"
 
 msgid "Download"
-msgstr ""
+msgstr "دانلود"
 
 #, php-format
 msgid "Call Monitor for %s (%s)"
-msgstr ""
+msgstr "مشاهده تماس برای %s (%s)"
 
 msgid "select"
-msgstr ""
+msgstr "انتخاب"
 
 msgid "all"
-msgstr ""
+msgstr "همه"
 
 msgid "none"
-msgstr ""
+msgstr "هیچ"
 
 msgid "Only deletes recording files, not cdr log"
-msgstr ""
+msgstr "حذف فایل های ضبط شده، بدون لاگ جزییات تماس"
 
 msgid "Feature Codes"
-msgstr ""
+msgstr "کدهای ویژه"
 
 #, php-format
 msgid " for %s (%s)"
-msgstr ""
+msgstr "برای %s (%s)"
 
 msgid "Handset Feature Code"
-msgstr ""
+msgstr "کد ویژه تلفن رومیزی"
 
 msgid "Action"
-msgstr ""
+msgstr "اقدام"
 
 msgid "description"
-msgstr ""
+msgstr "توضیح"
 
 msgid "Follow Me"
-msgstr ""
+msgstr "مرا دنبال کن"
 
 msgid ""
 "Your Follow-Me has been disabled, REFRESH your browser to remove this message"
 msgstr ""
+"تنظیمات مرا دنبال کن غیرفعال شده، برای حذف این پیام مرورگر را بازنشانی کنید"
 
 #, php-format
 msgid ""
 "Check with your Telephone System Administrator if you think there is a "
 "problem"
-msgstr ""
+msgstr "اگر مشکلی دارید با مدیر سیستم تلفن هماهنگ کنید"
 
 msgid "Follow-Me pre-ring time not changed"
-msgstr ""
+msgstr "مدت زمان اولیه زنگ خوردن مرا دنبال کن تغییر نکرده است"
 
 #, php-format
 msgid "Number %s must be an integer number of seconds"
-msgstr ""
+msgstr "شماره %s باید عددی باشد"
 
 msgid "Follow-Me list ring time not changed"
-msgstr ""
+msgstr "فهرست زمان زنگ خوردن مرا دنبال کن تغییر نکرده است"
 
 msgid "Follow-Me list must contain at least one valid number"
-msgstr ""
+msgstr "فهرست مرا دنبال کن باید حداقل یک شماره معتبر داشته باشد"
 
 #, php-format
 msgid "The following: %s is not valid"
-msgstr ""
+msgstr "عبارت زیر: %s نامعتبر است"
 
 msgid "Enable"
-msgstr ""
+msgstr "فعال شد"
 
 msgid ""
 "Dial-by-name Directory, IVR, and internal \n"
@@ -306,37 +310,53 @@ msgid ""
 "\t\t\t\t\t\t\t\t\t\t\t\t\treference a FollowMe are unaffected by this \n"
 "\t\t\t\t\t\t\t\t\t\t\t\t\tenable/disable setting."
 msgstr ""
+"Dial-by-name Directory, IVR, and internal \n"
+"\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\tcalls will  ring the numbers in the "
+"FollowMe \n"
+"\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\tList. Any FreePBX routes that "
+"directly \n"
+"\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\treference a FollowMe are unaffected "
+"by this \n"
+"\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\tenable/disable setting.Dial-by-name "
+"Directory, IVR, and internal \n"
+"\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\tcalls will ring the numbers in the "
+"FollowMe \n"
+"\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\tList. Any FreePBX routes that "
+"directly \n"
+"\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\treference a FollowMe are unaffected "
+"by this \n"
+"\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\tenable/disable setting."
 
 msgid "Follow Me List:"
-msgstr ""
+msgstr "فهرست مرا دنبال کن:"
 
 #, php-format
 msgid "Extensions and outside numbers to ring next."
-msgstr ""
+msgstr "شماره داخلی و بیرونی زنگ بعدی."
 
 #, php-format
 msgid "Include %s to keep it ringing."
-msgstr ""
+msgstr "شامل %s برای زنگ خوردن"
 
 #, php-format
 msgid "Ring %s First For:"
-msgstr ""
+msgstr "زنگ %s برای اولین بار:"
 
 #, php-format
 msgid "Time to ring extension %s before ringing the %s Follow Me List %s"
-msgstr ""
+msgstr "زمانی که باید داخلی %s زنگ بخورد قبل از اینکه %s فهرست مرا دنبال کن %s"
 
 msgid "seconds"
-msgstr ""
+msgstr "ثانیه ها"
 
 msgid "Ring Followme List for:"
-msgstr ""
+msgstr "زنگ فهرست مرا دنبال کن برای:"
 
 msgid "Time to ring the Follow Me List."
-msgstr ""
+msgstr "مدت زنگ خوردن فهرست مرا دنبال کن."
 
 msgid "Use Confirmation:"
-msgstr ""
+msgstr "استفاده از تاییدیه:"
 
 msgid ""
 "Outside lines that are part of the Follow Me List will be called and offered "
@@ -345,53 +365,59 @@ msgid ""
 "Make sure that the List Ring Time is long enough to allow for you to hear "
 "and react to this message."
 msgstr ""
+"Outside lines that are part of the Follow Me  List will be called and "
+"offered a menu:<br/><br/> \"You have an incoming call. Press 1 to accept or "
+"2 to decline.\"<br/><br/> This keeps calls from ending up in external "
+"voicemail. Make sure that the List Ring Time is long enough to allow for you "
+"to hear and react to this message."
 
 msgid "Followme Settings"
-msgstr ""
+msgstr "تنظیمات مرا دنبال کن"
 
 #, php-format
 msgid "Followme Settings for %s (%s)"
-msgstr ""
+msgstr "تنظیمات مرا دنبال کن برای %s (%s)"
 
 msgid "Update"
-msgstr ""
+msgstr "به روزرسانی"
 
 msgid "Phone Features"
-msgstr ""
+msgstr "ویژگی های تلفن"
 
 msgid "Call Waiting"
-msgstr ""
+msgstr "انتظار تماس"
 
 msgid "Do Not Disturb"
-msgstr ""
+msgstr "مزاحم نشوید"
 
 msgid "Call Forwarding"
-msgstr ""
+msgstr "انتقال تماس"
 
 msgid "Unconditional:"
-msgstr ""
+msgstr "بی قید و شرط:"
 
 msgid "Unavailable:"
-msgstr ""
+msgstr "خارج از دسترس:"
 
 msgid "Busy:"
-msgstr ""
+msgstr "اشغال:"
 
 #, php-format
 msgid "Phone Features for %s (%s)"
-msgstr ""
+msgstr "ویژگی های تلفن برای %s (%s)"
 
 msgid "Call forward number not changed"
-msgstr ""
+msgstr "شماره انتقال تماس تغییر نکرده است"
 
 #, php-format
 msgid ""
 "Number %s must contain dial numbers (characters like '(', '-', and ')' are "
 "ok)"
 msgstr ""
+"شماره %s باید شامل عدد باشد (کاراکترهایی مانند '(', '-', and ')' قبول است)"
 
 msgid "Call Screening:"
-msgstr ""
+msgstr "مشاهده تماس:"
 
 msgid ""
 "Call Screening requires external callers to say their name, which will be "
@@ -404,18 +430,27 @@ msgid ""
 "and all users on the system will have that new introduction associated with "
 "the caller's CallerId."
 msgstr ""
+"Call Screening requires external callers to say their name, which will be "
+"played back to the user and allow the user to accept or reject the call.  "
+"Screening with memory only verifies a caller for their caller-id once. "
+"Screening without memory always requires a caller to say their name. Either "
+"mode will always announce the caller based on the last introduction saved "
+"with that callerid. If any user on the system uses the memory option, when "
+"that user is called, the caller will be required to re-introduce themselves "
+"and all users on the system will have that new introduction associated with "
+"the caller's CallerId."
 
 msgid "Disable"
-msgstr ""
+msgstr "غیرفعال"
 
 msgid "Screen Caller: No Memory"
-msgstr ""
+msgstr "مشاهده تماس گیرنده: بدون حافظه"
 
 msgid "Screen Caller: Memory"
-msgstr ""
+msgstr "مشاهده تماس گیرنده: حافظه"
 
 msgid "CallForward Ringtimer:"
-msgstr ""
+msgstr "مدت زنگ انتقال تماس:"
 
 msgid ""
 "Number of seconds to ring prior to going to voicemail or other fail over "
@@ -425,9 +460,15 @@ msgid ""
 "Your setting here will be forced to Always if there is no Voicemail or "
 "alternartive fail over destination for a call to go to."
 msgstr ""
+"Number of seconds to ring prior to going to  voicemail or other fail over "
+"destinations that may be setup by an administrator on this account. The "
+"Always setting will ring the call forward destinaiton until answered or the "
+"caller hangs up. The Default setting will use the value set in Ring Time. "
+"Your setting here will be forced to Always if there is no Voicemail or "
+"alternartive fail over destination for a call to go to."
 
 msgid "Ringtimer:"
-msgstr ""
+msgstr "مدت زنگ:"
 
 msgid ""
 "Number of seconds to ring prior to going to voicemail or ringing other "
@@ -435,29 +476,35 @@ msgid ""
 "Unavailable destination that may be configured by your administrator. The "
 "Default setting will use the value set for the PBX."
 msgstr ""
+"Number of seconds to ring prior to going to  voicemail or ringing other "
+"numbers that may be configured such as a Call Forward Unavailabe or an "
+"Unavailable destination that may be configured by your administrator. The "
+"Default setting will use the value set for the PBX."
 
 msgid "Default"
-msgstr ""
+msgstr "پیشفرض"
 
 msgid "Always"
-msgstr ""
+msgstr "همیشه"
 
 msgid "Attach voicemail to email"
-msgstr ""
+msgstr "پیوست ایمیل صوتی به ایمیل"
 
 msgid "Option to attach audio file to email."
-msgstr ""
+msgstr "گزینه برای پیوست فایل صوتی به ایمیل."
 
 msgid "Number of deleted messages to backup"
-msgstr ""
+msgstr "تعداد پشتیبان گیری پیام های حذف شده"
 
 msgid ""
 "The maximum number of messages that are backed up in the Deleted folder. "
 "This may be 0-9999."
 msgstr ""
+"بیشترین تعداد پیام هایی که پشتیبان گیری شده اند در فولدر حذف شده. باید بین 0-"
+"9999 باشد."
 
 msgid "Delete voicemail after emailed"
-msgstr ""
+msgstr "حذف پیام صوتی بعد از ارسال"
 
 msgid ""
 "When enabled the message will be deleted from the voicemailbox after the "
@@ -466,256 +513,273 @@ msgid ""
 "telephone. CAUTION: Attach voicemail to email must be enabled, OTHERWISE "
 "YOUR MESSAGES WILL BE LOST FOREVER."
 msgstr ""
+"When enabled the message will  be deleted from the voicemailbox after the "
+"notification email is sent. This allows receiving voicemail via email alone, "
+"rather than having the voicemail available from the Web interface or by "
+"telephone. CAUTION: Attach voicemail to email must be enabled, OTHERWISE "
+"YOUR MESSAGES WILL BE LOST FOREVER."
 
 msgid "Say envelope (date/time)"
-msgstr ""
+msgstr "بیان (تاریخ/ساعت)"
 
 msgid ""
 "When enabled the voicemail system will play the message envelope (date/time) "
 "before playing the voicemail message. This setting does not affect the "
 "operation of the envelope option in the advanced voicemail menu."
 msgstr ""
+"When enabled the voicemail  system will play the message envelope (date/time)"
+" before playing the voicemail message. This setting does not affect the "
+"operation of the envelope option in the advanced voicemail menu."
 
 msgid "Maximum number of messages"
-msgstr ""
+msgstr "بیشترین تعداد پیام ها"
 
 msgid ""
 "Maximum number of messages per folder. It may be up to 9999. The default "
 "value is 100."
-msgstr ""
+msgstr "بیشترین تعداد پیام ها در هر فولدر.میتواند تا 9999 باشد. پیشفرض 100 است."
 
 msgid "Maximum message length"
-msgstr ""
+msgstr "بیشترین طول پیام"
 
 msgid "Maximum length allowed for a voicemail message (in seconds)."
-msgstr ""
+msgstr "بیشترین طول مجاز برای پیام ایمیل صوتی (به ثانیه)."
 
 msgid "Move heard messages"
-msgstr ""
+msgstr "انتقال پیام های شنیده شده"
 
 msgid "Automatically move heard messages to the Old folder."
-msgstr ""
+msgstr "انتقال خودکار پیام های شنیده شده به فولدر قدیمی."
 
 msgid "Review recording"
-msgstr ""
+msgstr "بازبینی پیام های ضبط شده"
 
 msgid "Allow caller to review their voicemail before saving it."
-msgstr ""
+msgstr "مجوز بازبینی ایمیل صوتی توسط تماس گیرنده قبل از ذخیره آن."
 
 msgid "Say caller ID"
-msgstr ""
+msgstr "بیان شناسه تماس گیرنده"
 
 msgid ""
 "After announcing the message date and time, play back the caller's telephone "
 "number before each message."
-msgstr ""
+msgstr "پس از اعلام تاریخ و ساعت پیام، شماره تماس گیرنده نیز اعلام شود."
 
 msgid "Say duration"
-msgstr ""
+msgstr "بیان مدت"
 
 msgid "Announce the message duration before playing the message."
-msgstr ""
+msgstr "بیان مدت پیام قبل از پخش آن."
 
 msgid "Say duration minimum"
-msgstr ""
+msgstr "بیان کمترین مدت"
 
 msgid ""
 "Do not announce message duration for messages shorter than this number of "
 "minutes."
-msgstr ""
+msgstr "برای پیام های کوتاه تر از این زمان، مدت زمان آن را اعلام نکن."
 
 msgid "Email from"
-msgstr ""
+msgstr "ایمیل از طرف"
 
 msgid "Who the e-mail notification should appear to come from."
-msgstr ""
+msgstr "ایمیل اطلاع رسانی از طرف چه کسی ارسال شده."
 
 msgid "Temporary greeting warning"
-msgstr ""
+msgstr "هشدار تبریک موقت"
 
 msgid "Warn user when a temporary greeting is active."
-msgstr ""
+msgstr "وقتی هشدار تبریک موفت فعال است به کاربر خبر بده."
 
 msgid "Change attachment volume"
-msgstr ""
+msgstr "تغییر میزان صدای پیوست"
 
 msgid ""
 "Change volume of message before attaching it to an email. Values less than "
 "1.0 decrease volume, greater than 1.0 increase volume."
 msgstr ""
+"تغییر میزان صدای پیام قبل از پیوست آن به ایمیل. کمتر از 1.0 صدای کمتر، بیشتر "
+"از 1.0 صدای بیشتر."
 
 msgid "Settings"
-msgstr ""
+msgstr "تنظیمات"
 
 msgid "Voicemail password not changed"
-msgstr ""
+msgstr "کلمه عبور ایمیل صوتی تغییر نکرد"
 
 msgid "Password and password confirm must not be blank"
-msgstr ""
+msgstr "کلمه عبور و تاییدیه آن نباید خالی باشند"
 
 #, php-format
 msgid "Passwords must be all numbers and greater than %d digits"
-msgstr ""
+msgstr "کلمه عبور باید عددی و بزرگتر از %d باشند"
 
 #, php-format
 msgid "Passwords must be all numbers and only %d digits"
-msgstr ""
+msgstr "کلمه عبور باید عددی و تنها %d باشد"
 
 msgid "Password and password confirm do not match"
-msgstr ""
+msgstr "کلمه عبور و تاییدیه آن یکسان نیستند"
 
 #, php-format
 msgid "%s does not exist or is not writable"
-msgstr ""
+msgstr "%s موجود نبوده و یا قابل نوشتن نیست"
 
 msgid "Voicemail email and pager address not changed"
-msgstr ""
+msgstr "ایمیل صوتی و آدرس پیجر تغییر نکردند"
 
 msgid "Voicemail email settings not changed"
-msgstr ""
+msgstr "تنظیمات ایمیل صوتی تغییر نکرده است"
 
 msgid "Language:"
-msgstr ""
+msgstr "زبان:"
 
 #, php-format
 msgid "Passwords must be all numbers and only %s digits"
-msgstr ""
+msgstr "کلمه عبور باید عددی و تنها %s باشد"
 
 #, php-format
 msgid "Passwords must be all numbers and at least %s digits"
-msgstr ""
+msgstr "کلمه عبور باید عددی و حداقل %s باشد"
 
 msgid "Password Settings"
-msgstr ""
+msgstr "تنظیمات کلمه عبور"
 
 msgid "Voicemail Password:"
-msgstr ""
+msgstr "کلمه عبور ایمیل صوتی:"
 
 msgid "Enter again to confirm:"
-msgstr ""
+msgstr "برای تایید مجدد وارد کنید:"
 
 msgid "Email Address:"
-msgstr ""
+msgstr "آدرس ایمیل:"
 
 msgid "Email a notification, including audio file if indicated below."
-msgstr ""
+msgstr "ارسال ایمیل هشدار، شامل فایل صوتی مشخص شده در زیر."
 
 msgid "Pager Email Address:"
-msgstr ""
+msgstr "آدرس ایمیل پیجر:"
 
 msgid "Email a short notification"
-msgstr ""
+msgstr "ارسال هشدار کوتاه"
 
 msgid "Call Me Number:"
-msgstr ""
+msgstr "شماره تماس من:"
 
 msgid ""
 "Call Me Number can be any dialable number, such as an extension or a "
 "cellphone."
-msgstr ""
+msgstr "شماره تماس من میتواند هر شماره ای باشد، چه داخلی چه تلفن همراه."
 
 msgid "Audio Format:"
-msgstr ""
+msgstr "فرمت صوتی:"
 
 msgid "Best Quality"
-msgstr ""
+msgstr "بهترین کیفیت"
 
 msgid "Smallest Download"
-msgstr ""
+msgstr "دانلود کوچکترین"
 
 msgid "Notification Settings"
-msgstr ""
+msgstr "تنظیمات هشدار"
 
 msgid "Web Playback Settings"
-msgstr ""
+msgstr "تنظیمات پخش تحت وب"
 
 msgid "Phone Playback Settings"
-msgstr ""
+msgstr "تنظیمات پخش تلفنی"
 
 msgid "Caller Settings"
-msgstr ""
+msgstr "تنظیمات تماس گیرنده"
 
 msgid "Mailbox Storage Settings"
-msgstr ""
+msgstr "تنظیمات حجم صندوق ایمیل"
 
 msgid "IMAP Mail Settings"
-msgstr ""
+msgstr "تنظیمات ایمیل IMAP"
 
 msgid "Other Voicemail Settings"
-msgstr ""
+msgstr "دیگر تنظیمات ایمیل صوتی"
 
 msgid "Call Monitor Settings"
-msgstr ""
+msgstr "تنظیمات مشاهده تماس"
 
 msgid "Record INCOMING:"
-msgstr ""
+msgstr "ضبط ورودی:"
 
 msgid "Never"
-msgstr ""
+msgstr "هرگز"
 
 msgid "On-Demand"
-msgstr ""
+msgstr "برای تقاضا"
 
 msgid "Record OUTGOING:"
-msgstr ""
+msgstr "ضبط خروجی:"
 
 #, php-format
 msgid "Settings for %s (%s)"
-msgstr ""
+msgstr "تنظیمات برای %s (%s)"
 
 msgid "VmX&#8482 Locator"
-msgstr ""
+msgstr "VmX&#8482 مجاز"
 
 msgid ""
 "Your Premium VmX Locator service has been disabled, REFRESH your browser to "
 "remove this message"
 msgstr ""
+"Your Premium VmX Locator service  has been disabled, REFRESH your browser to "
+"remove this message"
 
 msgid "Option 0 not changed"
-msgstr ""
+msgstr "گزینه 0 تغییر نکرده است"
 
 msgid "Option 1 not changed"
-msgstr ""
+msgstr "گزینه 1 تغییر نکرده است"
 
 msgid "Option 2 not changed"
-msgstr ""
+msgstr "گزینه 2 تغییر نکرده است"
 
 msgid "Use When:"
-msgstr ""
+msgstr "هنگام استفاده:"
 
 msgid ""
 "Menu options below are available during your personal voicemail greeting "
 "playback. <br/><br/>Check both to use at all times."
 msgstr ""
+"گزینه های منو زیر در هنگام پخش خوش آمدگویی شخصی در ایمیل صوتی "
+"موجودند.<br/><br/>انتخاب هردو برای همیشه."
 
 msgid "unavailable"
-msgstr ""
+msgstr "دور از دسترس"
 
 msgid "busy"
-msgstr ""
+msgstr "اشغال"
 
 msgid "Voicemail Instructions:"
-msgstr ""
+msgstr "ساختار پیام صوتی:"
 
 msgid "Uncheck to play a beep after your personal voicemail greeting."
 msgstr ""
+"برای شنیدن صدای بوق بعد از پیام خوش آمد گویی شخصی ایمیل صوتی علامت نزنید."
 
 msgid "Standard voicemail prompts."
-msgstr ""
+msgstr "فرامین استاندارد ایمیل صوتی."
 
 msgid "Press 0:"
-msgstr ""
+msgstr "0 را فشار دهید:"
 
 msgid ""
 "Pressing 0 during your personal voicemail greeting goes to the Operator. \n"
 "\t\t\t\t\tUncheck to enter another destination here."
 msgstr ""
+"در هنگام پخش پیام خوش آمدگویی با شماره گیری عدد 0 به اپراتور متصل میشود. \n"
+"\\t\\t\\t\\t\\tبرای انتخاب داخلی دیگر علامت نزنید."
 
 msgid "Go To Operator"
-msgstr ""
+msgstr "اتصال به اپراتور"
 
 msgid "Press 1:"
-msgstr ""
+msgstr "1 را فشار دهید:"
 
 msgid ""
 "The remaining options can have internal extensions, ringgroups, queues and "
@@ -724,6 +788,11 @@ msgid ""
 "time a change is made so you don't leave a caller stranded or receiving "
 "invalid number messages."
 msgstr ""
+"The remaining options can  have internal extensions, ringgroups, queues and "
+"external numbers that may be rung. It is often used to include your cell "
+"phone. You should run a test to make sure that the number is functional any "
+"time a change is made so you don't leave a caller stranded or receiving "
+"invalid number messages."
 
 msgid ""
 "Enter an alternate number here, then change your personal voicemail greeting "
@@ -731,128 +800,138 @@ msgid ""
 "to use your Follow Me List, check \"Send to Follow Me\" and disable Follow "
 "Me above."
 msgstr ""
+"Enter an alternate  number here, then change your personal voicemail "
+"greeting to let callers know to press 1 to reach that number. <br/><br/>If "
+"you'd like to use your Follow Me List, check \"Send to Follow Me\" and "
+"disable Follow Me above."
 
 msgid "Send to Follow-Me"
-msgstr ""
+msgstr "ارسال به مرا دنبال کن"
 
 msgid "Press 2:"
-msgstr ""
+msgstr "2 را فشار دهید:"
 
 msgid ""
 "Use any extensions, ringgroups, queues or external numbers. <br/><br/"
 ">Remember to re-record your personal voicemail greeting and include "
 "instructions. Run a test to make sure that the number is functional."
 msgstr ""
+"استفاده از هر داخلی، گروه زنگ، صف یا شماره داخلی.<br/><br/> به یاد داشته "
+"باشید پیام خوش آمدگویی خود را مجدد ضبط کنید.برای اطمینان از تنظیمات یکبار "
+"امتحان کنید."
 
 #, php-format
 msgid "VmX Locator&#8482; Settings for %s (%s)"
-msgstr ""
+msgstr "VmX Locator&#8482; تنظیمات برای %s (%s)"
 
 msgid "Voicemail"
-msgstr ""
+msgstr "ایمیل صوتی"
 
 msgid "A folder must be selected before the message can be moved."
-msgstr ""
+msgstr "قبل از انتقال پیام باید یک فولدر انتخاب شود."
 
 msgid "One or more messages must be selected before clicking move_to."
-msgstr ""
+msgstr "یک یا چند پیام برای انتقال انتخاب کنید."
 
 msgid "An extension must be selected before the message can be forwarded."
-msgstr ""
+msgstr "قبل از ارسال پیام باید یک داخلی انتخاب شود."
 
 msgid "One or more messages must be selected before clicking forward_to."
-msgstr ""
+msgstr "یک یا چند پیام برای ارسال انتخاب کنید."
 
 msgid ""
 "You must enter one or more email addresses (comma-separated) before clicking "
 "email_to."
 msgstr ""
+"قبل از ارسال ایمیل یک یا چند آدرس ایمیل(به وسیله کاما از هم جدا کنید) وارد "
+"کنید."
 
 msgid "Warning: "
-msgstr ""
+msgstr "هشدار:"
 
 msgid "is not a valid email address"
-msgstr ""
+msgstr "آدرس ایمیل درست نیست"
 
 msgid "The file type was not recognized."
-msgstr ""
+msgstr "نوع فایل تشخیص داده نشد."
 
 msgid "Warning: Could not access voicemail.conf.  Using default mailer."
 msgstr ""
+"هشدار: به فایل voicemail.conf دسترسی ندارید. از فرستنده پیشفرض استفاده کنید."
 
 msgid "Mail operation failed"
-msgstr ""
+msgstr "عملیات ایمیل ناموفق بود"
 
 msgid "No valid email address given.  Please try again."
-msgstr ""
+msgstr "آدرس ایمیل صحیح نداده اید. لطفا مجدد تلاش کنید."
 
 msgid "One or more messages must be selected before clicking email_to."
-msgstr ""
+msgstr "یک یا چند پیام برای ارسال توسط ایمیل انتخاب کنید."
 
 msgid "move_to"
-msgstr ""
+msgstr "انتقال به"
 
 msgid "Folder"
-msgstr ""
+msgstr "فولدر"
 
 msgid "forward_to"
-msgstr ""
+msgstr "ارسال به"
 
 msgid "email_to"
-msgstr ""
+msgstr "ایمیل"
 
 msgid "Priority"
-msgstr ""
+msgstr "اولویت"
 
 msgid "Orig Mailbox"
-msgstr ""
+msgstr "صندوق ایمیل اصلی"
 
 msgid "Playback"
-msgstr ""
+msgstr "پخش"
 
 msgid "Play message at: "
-msgstr ""
+msgstr "پخش پیام در:"
 
 msgid "Voicemail recording(s) was not found."
-msgstr ""
+msgstr "پیام(های) صوتی ضبط شده یافت نشد."
 
 #, php-format
 msgid ""
 "On settings page, change voicemail audio format.  It is currently set to %s"
-msgstr ""
+msgstr "در صفحه تنظیمات،فرمت صدای ایمیل صوتی را تغییر دهید.در حال حاضر %s"
 
 msgid "Voicemail Login not found."
-msgstr ""
+msgstr "صفحه ورود پیام صوتی یافت نشد."
 
 msgid "No access to voicemail"
-msgstr ""
+msgstr "بدون دسترسی به ایمیل صوتی"
 
 msgid "No Voicemail Recordings for Admin"
-msgstr ""
+msgstr "ایمیل صوتی برای مدیر وجود ندارد"
 
 #, php-format
 msgid "Voicemail for %s (%s)"
-msgstr ""
+msgstr "ایمیل صوتی برای %s (%s)"
 
 msgid "Calling: "
-msgstr ""
+msgstr "در حال تماس:"
 
 msgid ". Please wait patiently..."
-msgstr ""
+msgstr ". لطفا منتظر بمانید..."
 
 #, php-format
 msgid "Could not create mailbox folder %s on the server"
-msgstr ""
+msgstr "عدم توانایی ایجاد فولدر ایمیل %s در سرور"
 
 #, php-format
 msgid "Permission denied on folder %s or %s"
-msgstr ""
+msgstr "عدم دسترسی به فولدر %s یا %s"
 
 msgid "The call was terminated."
-msgstr ""
+msgstr "تماس قطع شد."
 
 msgid "Folders"
-msgstr ""
+msgstr "فولدرها"
 
 msgid "Original work based on ARI from Littlejohn Consulting"
-msgstr ""
+msgstr "Original work  based on ARI from Littlejohn Consulting"
