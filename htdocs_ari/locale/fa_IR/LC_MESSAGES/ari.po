@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-12-14 07:08+0100\n"
-"PO-Revision-Date: 2016-04-14 11:40+0300\n"
+"PO-Revision-Date: 2016-04-14 13:49+0200\n"
 "Last-Translator: Media <mousavi.media@gmail.com>\n"
 "Language-Team: Persian (Iran) "
 "<http://weblate.freepbx.org/projects/freepbx/fw_ari/fa_IR/>\n"
@@ -74,7 +74,7 @@ msgid ""
 "make sure [general] enabled = yes and a 'permit=' line for localhost or the "
 "webserver."
 msgstr ""
-"اطمینان از [عموما] فعال شده = بله و 'مجاز=' خط برای سرور محلی یا وب سرور"
+"اطمینان از [عموما] فعال شده = بله و 'مجاز=' خط برای سرور محلی یا وب سرور."
 
 msgid "Check AMP installation, asterisk, and ARI main.conf"
 msgstr "Check AMP  installation, asterisk, and ARI main.conf"
@@ -258,7 +258,7 @@ msgstr "کدهای ویژه"
 
 #, php-format
 msgid " for %s (%s)"
-msgstr "برای %s (%s)"
+msgstr " برای %s (%s)"
 
 msgid "Handset Feature Code"
 msgstr "کد ویژه تلفن رومیزی"
@@ -336,7 +336,7 @@ msgstr "شماره داخلی و بیرونی زنگ بعدی."
 
 #, php-format
 msgid "Include %s to keep it ringing."
-msgstr "شامل %s برای زنگ خوردن"
+msgstr "شامل %s برای زنگ خوردن."
 
 #, php-format
 msgid "Ring %s First For:"
@@ -430,7 +430,7 @@ msgid ""
 "and all users on the system will have that new introduction associated with "
 "the caller's CallerId."
 msgstr ""
-"Call Screening requires external callers to say their name, which will be "
+"Call Screening requires external callers to  say their name, which will be "
 "played back to the user and allow the user to accept or reject the call.  "
 "Screening with memory only verifies a caller for their caller-id once. "
 "Screening without memory always requires a caller to say their name. Either "
@@ -847,7 +847,7 @@ msgstr ""
 "کنید."
 
 msgid "Warning: "
-msgstr "هشدار:"
+msgstr "هشدار: "
 
 msgid "is not a valid email address"
 msgstr "آدرس ایمیل درست نیست"
@@ -890,7 +890,7 @@ msgid "Playback"
 msgstr "پخش"
 
 msgid "Play message at: "
-msgstr "پخش پیام در:"
+msgstr "پخش پیام در: "
 
 msgid "Voicemail recording(s) was not found."
 msgstr "پیام(های) صوتی ضبط شده یافت نشد."
@@ -914,7 +914,7 @@ msgid "Voicemail for %s (%s)"
 msgstr "ایمیل صوتی برای %s (%s)"
 
 msgid "Calling: "
-msgstr "در حال تماس:"
+msgstr "در حال تماس: "
 
 msgid ". Please wait patiently..."
 msgstr ". لطفا منتظر بمانید..."
